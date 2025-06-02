@@ -24,6 +24,10 @@ if uploaded_file is not None:
             else:
                 df[col] = df[col].astype(float)
 
+        # --- Filter out weekends ---
+        # Monday=0, Sunday=6. So, keep only weekdays (0 to 4)
+        df = df[df['Date'].dt.dayofweek < 5].copy() # Apply weekend filter early
+
         # Filter out 'UNDOF Vehicle Registration' at the main DataFrame level
         df_filtered = df[df["Sector"] != "UNDOF Vehicle Registration"].copy()
 
@@ -31,17 +35,19 @@ if uploaded_file is not None:
         # Overall Average Daily Consumption (using the filtered data)
         overall_avg_daily_consumption = df_filtered["Avg Daily Consumption"].mean(skipna=True).round(1)
 
-        # Determine the last day from the filtered data
+        # Determine the last day from the filtered data (which now excludes weekends)
         last_day = df_filtered["Date"].max()
         last_5_days_start = last_day - timedelta(days=5)
 
-        # Filter data for the last 5 days (using the already filtered data)
+        # Filter data for the last 5 days (using the already filtered data, which also excludes weekends)
+        # Note: This will now consider 5 *business* days back from the last available business day,
+        # or simply dates within the last 5 calendar days that are also business days.
         df_last_5_days = df_filtered[df_filtered["Date"] >= last_5_days_start]
 
-        # Corrected: Calculate the AVERAGE consumption of the last 5 days
+        # Corrected: Calculate the AVERAGE consumption of the last 5 days (weekdays only)
         avg_consumption_last_5_days = df_last_5_days["Avg Daily Consumption"].mean().round(1)
 
-        # Corrected: Calculate the TOTAL consumption of the last 5 days
+        # Corrected: Calculate the TOTAL consumption of the last 5 days (weekdays only)
         total_consumption_last_5_days = df_last_5_days["Avg Daily Consumption"].sum().round(1)
         formatted_total_consumption_last_5_days = f"{total_consumption_last_5_days:,.1f}"
 
@@ -56,7 +62,6 @@ if uploaded_file is not None:
         formatted_total_tank_capacity = f"{total_tank_capacity:,.1f}"
 
         # Percentage calculations
-        # Ensure a base for percentage if total_tank_capacity is 0 to avoid division by zero
         percentage_full_capacity = (avg_last_5_days_reported_stock / total_tank_capacity) * 100 if total_tank_capacity > 0 else 0
         vacancy_rate = 100 - percentage_full_capacity
 
@@ -65,17 +70,16 @@ if uploaded_file is not None:
         d, e, f = st.columns((3))
 
         a.metric(label="Total Tank Capacity (lts)", value=formatted_total_tank_capacity)
-        b.metric(label="Avg Daily Consumption last 5 days (lts)", value=avg_consumption_last_5_days)
-        c.metric(label="Total Consumption last 5 days (lts)", value=formatted_total_consumption_last_5_days)
-        d.metric(label="Total Reported Stock last 5 days", value=formatted_avg_last_5_days_reported_stock)
+        b.metric(label="Avg Daily Consumption last 5 days (lts - Weekdays Only)", value=avg_consumption_last_5_days)
+        c.metric(label="Total Consumption last 5 days (lts - Weekdays Only)", value=formatted_total_consumption_last_5_days)
+        d.metric(label="Total Reported Stock last 5 days (Weekdays Only)", value=formatted_avg_last_5_days_reported_stock)
         e.metric(label="% Full Capacity", value=f"{percentage_full_capacity:.2f} %")
         f.metric(label="% Vacancy Rate", value=f"{vacancy_rate:.2f} %")
 
         # First bar chart: Total capacity per sector on the first day
-        # Ensure 'df_filtered' is used here to exclude UNDOF from this plot as well
-        first_day = df_filtered['Date'].min() # Use df_filtered
-        df_first_day_filtered = df_filtered[df_filtered['Date'] == first_day] # Use df_filtered
-        capacity_by_sector = df_first_day_filtered.groupby('Sector')['Tank Capacity'].sum().reset_index() # Use df_first_day_filtered
+        first_day = df_filtered['Date'].min()
+        df_first_day_filtered = df_filtered[df_filtered['Date'] == first_day]
+        capacity_by_sector = df_first_day_filtered.groupby('Sector')['Tank Capacity'].sum().reset_index()
         capacity_by_sector = capacity_by_sector.sort_values(by='Tank Capacity', ascending=False)
 
         gradient_colors = px.colors.sequential.Oranges[::-1][:len(capacity_by_sector)]
@@ -102,30 +106,33 @@ if uploaded_file is not None:
         st.plotly_chart(fig1, use_container_width=True)
 
         # --- Visualizations (Consumption and Stock Trend) ---
-        st.subheader("Daily Consumption Trend")
-        fig_consumption = px.line(df_filtered, x='Date', y='Avg Daily Consumption', title='Average Daily Consumption Over Time')
+        st.subheader("Daily Consumption Trend (Weekdays Only)")
+        fig_consumption = px.line(df_filtered, x='Date', y='Avg Daily Consumption', title='Average Daily Consumption Over Time (Weekdays Only)')
         st.plotly_chart(fig_consumption, use_container_width=True)
 
-        st.subheader("Reported Stock Trend")
-        fig_stock = px.line(df_filtered, x='Date', y='Reported Stock', title='Reported Stock Over Time')
+        st.subheader("Reported Stock Trend (Weekdays Only)")
+        fig_stock = px.line(df_filtered, x='Date', y='Reported Stock', title='Reported Stock Over Time (Weekdays Only)')
         st.plotly_chart(fig_stock, use_container_width=True)
 
 
         # --- Sector-specific plots ---
 
-        # Add a date slider at the top
-        unique_dates = sorted(df_filtered['Date'].unique()) # Use df_filtered here
-        unique_dates_dt_only = [pd.to_datetime(d).date() for d in unique_dates]
+        # Add a date slider at the top (only showing weekdays)
+        unique_dates = sorted(df_filtered['Date'].unique())
+        unique_dates_dt_only = [pd.to_datetime(d).date() for d in unique_dates if pd.to_datetime(d).weekday() < 5] # Filter for weekdays
 
-        selected_date = st.slider(
-            "Select Date",
-            min_value=unique_dates_dt_only[0],
-            max_value=unique_dates_dt_only[-1],
-            value=unique_dates_dt_only[-1],
-            format="YYYY-MM-DD"
-        )
-        df_selected_date = df_filtered[df_filtered['Date'].dt.date == selected_date] # Use df_filtered
-
+        if unique_dates_dt_only: # Ensure there are dates to select
+            selected_date = st.slider(
+                "Select Date for Sector Plots (Weekdays Only)",
+                min_value=unique_dates_dt_only[0],
+                max_value=unique_dates_dt_only[-1],
+                value=unique_dates_dt_only[-1],
+                format="YYYY-MM-DD"
+            )
+            df_selected_date = df_filtered[df_filtered['Date'].dt.date == selected_date]
+        else:
+            st.warning("No weekday data available for sector-specific plots based on current filters.")
+            df_selected_date = pd.DataFrame() # Empty DataFrame if no weekdays
 
         st.header("Fuel Overview")
 
@@ -195,7 +202,7 @@ if uploaded_file is not None:
                 yaxis=dict(title='Volume (Liters)'),
                 yaxis2=dict(title='Days of Supply', overlaying='y', side='right', showgrid=False),
                 barmode='group',
-                showlegend=True, # Changed to True to show legend for multiple traces
+                showlegend=True,
                 xaxis_tickangle=-45,
                 hovermode="x unified",
                 height=400
@@ -205,24 +212,26 @@ if uploaded_file is not None:
         st.divider()
 
         figures_to_display = []
-        # Get unique sectors from the already filtered DataFrame (df_filtered)
         unique_sectors = df_filtered['Sector'].unique().tolist()
 
-        # The 'UNDOF Vehicle Registration' will already be excluded if df_filtered was created correctly,
-        # but this check ensures it for robustness if df_filtered isn't universally applied elsewhere.
         if "UNDOF Vehicle Registration" in unique_sectors:
             unique_sectors.remove("UNDOF Vehicle Registration")
 
-        for sector in unique_sectors:
-            fig = generate_sector_plots(df_selected_date, sector)
-            if fig:
-                figures_to_display.append(fig)
+        # Only generate plots if df_selected_date is not empty (i.e., a weekday date was selected)
+        if not df_selected_date.empty:
+            for sector in unique_sectors:
+                fig = generate_sector_plots(df_selected_date, sector)
+                if fig:
+                    figures_to_display.append(fig)
+            
+            for i in range(0, len(figures_to_display), 2):
+                cols = st.columns(2)
+                for j in range(2):
+                    if i + j < len(figures_to_display):
+                        cols[j].plotly_chart(figures_to_display[i + j], use_container_width=True)
+        else:
+            st.info("No data to display for sector-specific plots on the selected date (only weekdays are considered).")
 
-        for i in range(0, len(figures_to_display), 2):
-            cols = st.columns(2)
-            for j in range(2):
-                if i + j < len(figures_to_display):
-                    cols[j].plotly_chart(figures_to_display[i + j], use_container_width=True)
 
     except Exception as e:
         st.error(f"Error processing file: {e}")
