@@ -15,19 +15,17 @@ uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 if uploaded_file is not None:
     try:
         df = pd.read_csv(uploaded_file)
-        
-          # --- Data Cleaning and Type Conversion ---
+
+        # --- Data Cleaning and Type Conversion ---
         df['Date'] = pd.to_datetime(df['Date'])
-        # Handle potential commas in numeric columns and convert to float
         for col in ['Tank Capacity', 'Reported Stock', 'Available Storage Space', 'Avg Daily Consumption', 'Days of Supply']:
-            if df[col].dtype == 'object': # Check if column is object type (string)
+            if df[col].dtype == 'object':
                 df[col] = df[col].str.replace(',', '').astype(float)
-            else: # Already numeric, ensure float
+            else:
                 df[col] = df[col].astype(float)
 
-        # Filter out 'UNDOF Vehicle Registration' before any calculations for filtered data
-        mask = df["Sector"] != "UNDOF Vehicle Registration"
-        df_filtered = df[mask].copy() # Create a copy to avoid SettingWithCopyWarning
+        # Filter out 'UNDOF Vehicle Registration' at the main DataFrame level
+        df_filtered = df[df["Sector"] != "UNDOF Vehicle Registration"].copy()
 
         # --- Calculations ---
         # Overall Average Daily Consumption (using the filtered data)
@@ -69,13 +67,15 @@ if uploaded_file is not None:
         a.metric(label="Total Tank Capacity (lts)", value=formatted_total_tank_capacity)
         b.metric(label="Avg Daily Consumption last 5 days (lts)", value=avg_consumption_last_5_days)
         c.metric(label="Total Consumption last 5 days (lts)", value=formatted_total_consumption_last_5_days)
-        d.metric(label="Total Reported Stock last 5 days", value=formatted_avg_last_5_days_reported_stock) # Renamed label for clarity
+        d.metric(label="Total Reported Stock last 5 days", value=formatted_avg_last_5_days_reported_stock)
         e.metric(label="% Full Capacity", value=f"{percentage_full_capacity:.2f} %")
         f.metric(label="% Vacancy Rate", value=f"{vacancy_rate:.2f} %")
+
         # First bar chart: Total capacity per sector on the first day
-        first_day = df['Date'].min()
-        df_first_day = df[df['Date'] == first_day]
-        capacity_by_sector = df_first_day.groupby('Sector')['Tank Capacity'].sum().reset_index()
+        # Ensure 'df_filtered' is used here to exclude UNDOF from this plot as well
+        first_day = df_filtered['Date'].min() # Use df_filtered
+        df_first_day_filtered = df_filtered[df_filtered['Date'] == first_day] # Use df_filtered
+        capacity_by_sector = df_first_day_filtered.groupby('Sector')['Tank Capacity'].sum().reset_index() # Use df_first_day_filtered
         capacity_by_sector = capacity_by_sector.sort_values(by='Tank Capacity', ascending=False)
 
         gradient_colors = px.colors.sequential.Oranges[::-1][:len(capacity_by_sector)]
@@ -101,8 +101,20 @@ if uploaded_file is not None:
         )
         st.plotly_chart(fig1, use_container_width=True)
 
+        # --- Visualizations (Consumption and Stock Trend) ---
+        st.subheader("Daily Consumption Trend")
+        fig_consumption = px.line(df_filtered, x='Date', y='Avg Daily Consumption', title='Average Daily Consumption Over Time')
+        st.plotly_chart(fig_consumption, use_container_width=True)
+
+        st.subheader("Reported Stock Trend")
+        fig_stock = px.line(df_filtered, x='Date', y='Reported Stock', title='Reported Stock Over Time')
+        st.plotly_chart(fig_stock, use_container_width=True)
+
+
+        # --- Sector-specific plots ---
+
         # Add a date slider at the top
-        unique_dates = sorted(df['Date'].unique())
+        unique_dates = sorted(df_filtered['Date'].unique()) # Use df_filtered here
         unique_dates_dt_only = [pd.to_datetime(d).date() for d in unique_dates]
 
         selected_date = st.slider(
@@ -112,8 +124,8 @@ if uploaded_file is not None:
             value=unique_dates_dt_only[-1],
             format="YYYY-MM-DD"
         )
-        df_selected_date = df[df['Date'].dt.date == selected_date]
-        unique_sectors = sorted(df['Sector'].unique())
+        df_selected_date = df_filtered[df_filtered['Date'].dt.date == selected_date] # Use df_filtered
+
 
         st.header("Fuel Overview")
 
@@ -142,8 +154,8 @@ if uploaded_file is not None:
         )
 
         def generate_sector_plots(df_input, sector_name):
-            df_sector = df_filtered_date[df_filtered_date['Sector'] == sector_name]
-            
+            df_sector = df_input[df_input['Sector'] == sector_name]
+
             if df_sector.empty:
                 return None
 
@@ -183,7 +195,7 @@ if uploaded_file is not None:
                 yaxis=dict(title='Volume (Liters)'),
                 yaxis2=dict(title='Days of Supply', overlaying='y', side='right', showgrid=False),
                 barmode='group',
-                showlegend=False,
+                showlegend=True, # Changed to True to show legend for multiple traces
                 xaxis_tickangle=-45,
                 hovermode="x unified",
                 height=400
@@ -193,9 +205,16 @@ if uploaded_file is not None:
         st.divider()
 
         figures_to_display = []
-        for i in range(0, len(unique_sectors)):
-            sector = unique_sectors[i]
-            fig = generate_sector_plots(df_selected_date, sector, i)
+        # Get unique sectors from the already filtered DataFrame (df_filtered)
+        unique_sectors = df_filtered['Sector'].unique().tolist()
+
+        # The 'UNDOF Vehicle Registration' will already be excluded if df_filtered was created correctly,
+        # but this check ensures it for robustness if df_filtered isn't universally applied elsewhere.
+        if "UNDOF Vehicle Registration" in unique_sectors:
+            unique_sectors.remove("UNDOF Vehicle Registration")
+
+        for sector in unique_sectors:
+            fig = generate_sector_plots(df_selected_date, sector)
             if fig:
                 figures_to_display.append(fig)
 
@@ -206,7 +225,7 @@ if uploaded_file is not None:
                     cols[j].plotly_chart(figures_to_display[i + j], use_container_width=True)
 
     except Exception as e:
-        st.error(f"Error processing the uploaded file: {e}")
-        st.warning("Please ensure your CSV file has the correct columns and data format.")
+        st.error(f"Error processing file: {e}")
+        st.info("Please ensure your CSV file has the expected columns: 'Date', 'Tank Capacity', 'Reported Stock', 'Available Storage Space', 'Avg Daily Consumption', 'Days of Supply', and 'Sector'.")
 else:
     st.info("Please upload a CSV file to begin.")
