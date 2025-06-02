@@ -35,7 +35,7 @@ if uploaded_file is not None:
         last_5_days = last_day - timedelta(days=5)
         df_last_5_days = df[df["Date"]>= last_5_days]
 
-        avg_consumption_last_5_days = df_last_5_days["Avg Daily Consumption"].sum().round(1)
+        avg_consumption_last_5_days = df_last_5_days["Avg Daily Consumption"].mean().round(1)
         
         # Recalculated total_consump based on user's last request (sum of Avg Daily Consumption)
         total_consump = avg_consumption_last_5_days 
