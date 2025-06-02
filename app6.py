@@ -113,16 +113,6 @@ if uploaded_file is not None:
         )
         st.plotly_chart(fig1, use_container_width=True)
 
-        # --- Visualizations (Consumption and Stock Trend) ---
-        st.subheader("Daily Consumption Trend (Weekdays Only)")
-        fig_consumption = px.line(df_filtered, x='Date', y='Avg Daily Consumption', title='Average Daily Consumption Over Time (Weekdays Only)')
-        st.plotly_chart(fig_consumption, use_container_width=True)
-
-        st.subheader("Reported Stock Trend (Weekdays Only)")
-        fig_stock = px.line(df_filtered, x='Date', y='Reported Stock', title='Reported Stock Over Time (Weekdays Only)')
-        st.plotly_chart(fig_stock, use_container_width=True)
-
-
         # --- Sector-specific plots ---
 
         # Add a date slider at the top (only showing weekdays)
@@ -210,7 +200,7 @@ if uploaded_file is not None:
                 yaxis=dict(title='Volume (Liters)'),
                 yaxis2=dict(title='Days of Supply', overlaying='y', side='right', showgrid=False),
                 barmode='group',
-                showlegend=True,
+                showlegend=False,
                 xaxis_tickangle=-45,
                 hovermode="x unified",
                 height=400
