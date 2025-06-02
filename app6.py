@@ -47,6 +47,7 @@ if uploaded_file is not None:
         reported_stock_last_day = df_last_day["Reported Stock"].sum().round(1)
         formatted_reported_stock_last_day = f"{reported_stock_last_day:,.1f}"
 
+
         # Calculate for the last 5 days (which now excludes weekends)
         last_5_days_start = last_day - timedelta(days=5)
         df_last_5_days = df_filtered[df_filtered["Date"] >= last_5_days_start]
@@ -68,8 +69,8 @@ if uploaded_file is not None:
         total_tank_capacity = df_first_day["Tank Capacity"].sum()
         formatted_total_tank_capacity = f"{total_tank_capacity:,.1f}"
 
-        # Percentage calculations
-        percentage_full_capacity = (formatted_reported_stock_last_day / formatted_total_tank_capacity) * 100
+        # Percentage calculations - FIX: Use numeric values for calculation, then format for display
+        percentage_full_capacity = (reported_stock_last_day / total_tank_capacity) * 100 if total_tank_capacity > 0 else 0
         vacancy_rate = 100 - percentage_full_capacity
 
         # Display Metrics
@@ -77,9 +78,7 @@ if uploaded_file is not None:
         d, e, f = st.columns((3))
 
         a.metric(label="Total Tank Capacity (lts)", value=formatted_total_tank_capacity)
-        # Modified metric b
         b.metric(label="Total Consumption Last Day (lts)", value=formatted_total_consumption_last_day)
-        # Modified metric c
         c.metric(label="Total Consumption last 5 days (lts)", value=formatted_total_consumption_last_5_days)
         d.metric(label="Reported Stock Last Day (Weekday Only)", value=formatted_reported_stock_last_day)
         e.metric(label="% Full Capacity", value=f"{percentage_full_capacity:.2f} %")
