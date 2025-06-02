@@ -37,14 +37,17 @@ if uploaded_file is not None:
 
         # Determine the last day from the filtered data (which now excludes weekends)
         last_day = df_filtered["Date"].max()
-        last_5_days_start = last_day - timedelta(days=5)
 
-        # Filter data for the last 5 days (using the already filtered data, which also excludes weekends)
-        # Note: This will now consider 5 *business* days back from the last available business day,
-        # or simply dates within the last 5 calendar days that are also business days.
+        # Calculate Total Consumption Last Day
+        df_last_day = df_filtered[df_filtered['Date'] == last_day]
+        total_consumption_last_day = df_last_day["Avg Daily Consumption"].sum().round(1)
+        formatted_total_consumption_last_day = f"{total_consumption_last_day:,.1f}"
+
+        # Calculate for the last 5 days (which now excludes weekends)
+        last_5_days_start = last_day - timedelta(days=5)
         df_last_5_days = df_filtered[df_filtered["Date"] >= last_5_days_start]
 
-        # Corrected: Calculate the AVERAGE consumption of the last 5 days (weekdays only)
+        # Calculate the AVERAGE consumption of the last 5 days (weekdays only)
         avg_consumption_last_5_days = df_last_5_days["Avg Daily Consumption"].mean().round(1)
 
         # Corrected: Calculate the TOTAL consumption of the last 5 days (weekdays only)
@@ -70,8 +73,10 @@ if uploaded_file is not None:
         d, e, f = st.columns((3))
 
         a.metric(label="Total Tank Capacity (lts)", value=formatted_total_tank_capacity)
-        b.metric(label="Avg Daily Consumption last 5 days (lts - Weekdays Only)", value=avg_consumption_last_5_days)
-        c.metric(label="Total Consumption last 5 days (lts - Weekdays Only)", value=formatted_total_consumption_last_5_days)
+        # Modified metric b
+        b.metric(label="Total Consumption Last Day (lts)", value=formatted_total_consumption_last_day)
+        # Modified metric c
+        c.metric(label="Total Consumption last 5 days (lts)", value=formatted_total_consumption_last_5_days)
         d.metric(label="Total Reported Stock last 5 days (Weekdays Only)", value=formatted_avg_last_5_days_reported_stock)
         e.metric(label="% Full Capacity", value=f"{percentage_full_capacity:.2f} %")
         f.metric(label="% Vacancy Rate", value=f"{vacancy_rate:.2f} %")
@@ -119,9 +124,9 @@ if uploaded_file is not None:
 
         # Add a date slider at the top (only showing weekdays)
         unique_dates = sorted(df_filtered['Date'].unique())
-        unique_dates_dt_only = [pd.to_datetime(d).date() for d in unique_dates if pd.to_datetime(d).weekday() < 5] # Filter for weekdays
+        unique_dates_dt_only = [pd.to_datetime(d).date() for d in unique_dates if pd.to_datetime(d).weekday() < 5]
 
-        if unique_dates_dt_only: # Ensure there are dates to select
+        if unique_dates_dt_only:
             selected_date = st.slider(
                 "Select Date for Sector Plots (Weekdays Only)",
                 min_value=unique_dates_dt_only[0],
@@ -132,7 +137,7 @@ if uploaded_file is not None:
             df_selected_date = df_filtered[df_filtered['Date'].dt.date == selected_date]
         else:
             st.warning("No weekday data available for sector-specific plots based on current filters.")
-            df_selected_date = pd.DataFrame() # Empty DataFrame if no weekdays
+            df_selected_date = pd.DataFrame()
 
         st.header("Fuel Overview")
 
@@ -217,13 +222,12 @@ if uploaded_file is not None:
         if "UNDOF Vehicle Registration" in unique_sectors:
             unique_sectors.remove("UNDOF Vehicle Registration")
 
-        # Only generate plots if df_selected_date is not empty (i.e., a weekday date was selected)
         if not df_selected_date.empty:
             for sector in unique_sectors:
                 fig = generate_sector_plots(df_selected_date, sector)
                 if fig:
                     figures_to_display.append(fig)
-            
+
             for i in range(0, len(figures_to_display), 2):
                 cols = st.columns(2)
                 for j in range(2):
