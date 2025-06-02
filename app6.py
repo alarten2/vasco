@@ -43,6 +43,10 @@ if uploaded_file is not None:
         total_consumption_last_day = df_last_day["Avg Daily Consumption"].sum().round(1)
         formatted_total_consumption_last_day = f"{total_consumption_last_day:,.1f}"
 
+        # Calculate Reported Stock Last Day
+        reported_stock_last_day = df_last_day["Reported Stock"].sum().round(1)
+        formatted_reported_stock_last_day = f"{reported_stock_last_day:,.1f}"
+
         # Calculate for the last 5 days (which now excludes weekends)
         last_5_days_start = last_day - timedelta(days=5)
         df_last_5_days = df_filtered[df_filtered["Date"] >= last_5_days_start]
@@ -77,7 +81,7 @@ if uploaded_file is not None:
         b.metric(label="Total Consumption Last Day (lts)", value=formatted_total_consumption_last_day)
         # Modified metric c
         c.metric(label="Total Consumption last 5 days (lts)", value=formatted_total_consumption_last_5_days)
-        d.metric(label="Total Reported Stock last 5 days (Weekdays Only)", value=formatted_avg_last_5_days_reported_stock)
+        d.metric(label="Reported Stock Last Day (Weekday Only)", value=formatted_reported_stock_last_day)
         e.metric(label="% Full Capacity", value=f"{percentage_full_capacity:.2f} %")
         f.metric(label="% Vacancy Rate", value=f"{vacancy_rate:.2f} %")
 
