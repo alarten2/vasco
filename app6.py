@@ -16,7 +16,7 @@ if uploaded_file is not None:
     try:
         df = pd.read_csv(uploaded_file)
         
-        # --- Data Cleaning and Type Conversion (moved inside the if block) ---
+          # --- Data Cleaning and Type Conversion ---
         df['Date'] = pd.to_datetime(df['Date'])
         # Handle potential commas in numeric columns and convert to float
         for col in ['Tank Capacity', 'Reported Stock', 'Available Storage Space', 'Avg Daily Consumption', 'Days of Supply']:
@@ -24,46 +24,54 @@ if uploaded_file is not None:
                 df[col] = df[col].str.replace(',', '').astype(float)
             else: # Already numeric, ensure float
                 df[col] = df[col].astype(float)
-        
-        # Filter out 'UNDOF Vehicle Registration'
+
+        # Filter out 'UNDOF Vehicle Registration' before any calculations for filtered data
         mask = df["Sector"] != "UNDOF Vehicle Registration"
-        df = df[mask]
+        df_filtered = df[mask].copy() # Create a copy to avoid SettingWithCopyWarning
 
-        # --- Calculations (moved inside the if block) ---
-        overall_avg_daily_consumption = df["Avg Daily Consumption"].mean(skipna=True).round(1)
-        last_day = df["Date"].max()
-        last_5_days = last_day - timedelta(days=5)
-        df_last_5_days = df[df["Date"]>= last_5_days]
+        # --- Calculations ---
+        # Overall Average Daily Consumption (using the filtered data)
+        overall_avg_daily_consumption = df_filtered["Avg Daily Consumption"].mean(skipna=True).round(1)
 
+        # Determine the last day from the filtered data
+        last_day = df_filtered["Date"].max()
+        last_5_days_start = last_day - timedelta(days=5)
+
+        # Filter data for the last 5 days (using the already filtered data)
+        df_last_5_days = df_filtered[df_filtered["Date"] >= last_5_days_start]
+
+        # Corrected: Calculate the AVERAGE consumption of the last 5 days
         avg_consumption_last_5_days = df_last_5_days["Avg Daily Consumption"].mean().round(1)
-        
-        # Recalculated total_consump based on user's last request (sum of Avg Daily Consumption)
-        total_consump = avg_consumption_last_5_days 
-        formatted_total_consump = f"{total_consump:,.1f}"
 
-        avg_last_5_days = df_last_5_days["Reported Stock"].sum().round(1) # Still used for % Full Capacity
-        first_day_tank = df["Date"].min()
-        df_first_day = df[df['Date'] == first_day_tank]
-        total_tank = df_first_day["Tank Capacity"].sum()
-        formatted_total_tank = f"{total_tank:,.1f}"
-        formatted_avg = f"{avg_last_5_days:,.1f}"
-        
-        # Ensure a base for percentage if 694500 is not universally applicable or from data
-        # For demonstration, keeping existing calculation for consistency with original code base
-        percentage = (avg_last_5_days / df_first_day['Tank Capacity'].sum()) * 100 if df_first_day['Tank Capacity'].sum() > 0 else 0 
-        vacancy_rate = 100 - percentage
+        # Corrected: Calculate the TOTAL consumption of the last 5 days
+        total_consumption_last_5_days = df_last_5_days["Avg Daily Consumption"].sum().round(1)
+        formatted_total_consumption_last_5_days = f"{total_consumption_last_5_days:,.1f}"
+
+        # Original calculation for Avg Stock last 5 days (used for % Full Capacity)
+        avg_last_5_days_reported_stock = df_last_5_days["Reported Stock"].sum().round(1)
+        formatted_avg_last_5_days_reported_stock = f"{avg_last_5_days_reported_stock:,.1f}"
+
+        # Calculations for Tank Capacity
+        first_day_tank = df_filtered["Date"].min()
+        df_first_day = df_filtered[df_filtered['Date'] == first_day_tank]
+        total_tank_capacity = df_first_day["Tank Capacity"].sum()
+        formatted_total_tank_capacity = f"{total_tank_capacity:,.1f}"
+
+        # Percentage calculations
+        # Ensure a base for percentage if total_tank_capacity is 0 to avoid division by zero
+        percentage_full_capacity = (avg_last_5_days_reported_stock / total_tank_capacity) * 100 if total_tank_capacity > 0 else 0
+        vacancy_rate = 100 - percentage_full_capacity
 
         # Display Metrics
-        a, b, c= st.columns((3))
+        a, b, c = st.columns((3))
         d, e, f = st.columns((3))
 
-        a.metric(label="Tank Capacity (lts)",value=formatted_total_tank)
-        b.metric(label="Avg Consumption last 5 days (lts)", value = avg_consumption_last_5_days)
-        c.metric(label="Sum of Avg Daily Consumption last 5 days (lts)", value = formatted_total_consump)
-        d.metric(label="Avg Stock last 5 days", value = formatted_avg)
-        e.metric(label="% Full Capacity", value = f"{percentage:.2f} %")
-        f.metric(label="% Vacancy Rate", value = f"{vacancy_rate:.2f} %") # Duplicate, consider removing or changing to a different metric
-
+        a.metric(label="Total Tank Capacity (lts)", value=formatted_total_tank_capacity)
+        b.metric(label="Avg Daily Consumption last 5 days (lts)", value=avg_consumption_last_5_days)
+        c.metric(label="Total Consumption last 5 days (lts)", value=formatted_total_consumption_last_5_days)
+        d.metric(label="Total Reported Stock last 5 days", value=formatted_avg_last_5_days_reported_stock) # Renamed label for clarity
+        e.metric(label="% Full Capacity", value=f"{percentage_full_capacity:.2f} %")
+        f.metric(label="% Vacancy Rate", value=f"{vacancy_rate:.2f} %")
         # First bar chart: Total capacity per sector on the first day
         first_day = df['Date'].min()
         df_first_day = df[df['Date'] == first_day]
