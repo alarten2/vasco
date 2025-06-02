@@ -1,0 +1,1241 @@
+﻿Date,Sector,Post,Tank Capacity,Reported Stock,Available Storage Space,Avg Daily Consumption,Days of Supply
+"May 1, 2025",Camp Faouar,CF Gen,"40,000","40,000",0,"2,206",18
+"May 1, 2025",Camp Faouar,CF Fuel Station,"100,000","87,362",786,"1,024",85
+"May 1, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 1, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 1, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",533,467,11,48
+"May 1, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",565,435,11,51
+"May 1, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,819",181,11,165
+"May 1, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 1, 2025",ROD,ROD Fuel Station,"49,000","43,500","5,500",35,"1,243"
+"May 1, 2025",ROD,ROD Generator,"10,000","7,700","2,300",44,175
+"May 1, 2025",Northern Sector,HB GEN,"51,000","40,867","10,133",234,175
+"May 1, 2025",Northern Sector,HB Fuel Station,"22,500","21,599",901,8,"2,700"
+"May 1, 2025",Northern Sector,HH,"42,000","40,309","1,691",115,351
+"May 1, 2025",Northern Sector,HS,"37,000","35,798","1,202",162,221
+"May 1, 2025",Northern Sector,POS12 Fuel Station,"18,000","17,418",582,51,342
+"May 1, 2025",Northern Sector,POS12A GEN,"40,000","37,748","2,252",344,110
+"May 1, 2025",Central Section,POS10A,"20,000","3,590","16,410",87,41
+"May 1, 2025",Central Section,POS17A,"4,000","3,730",270,186,20
+"May 1, 2025",Central Section,POS 27 Fuel Station,"20,000","19,370",630,21,922
+"May 1, 2025",Central Section,POS27 Gen,"10,000","8,992","1,008",37,243
+"May 1, 2025",Central Section,POS32,"11,000","10,483",517,12,874
+"May 1, 2025",Central Section,POS37,"20,000","18,056","1,944",57,317
+"May 1, 2025",Central Section,POS60,"20,000","16,518","3,482",116,142
+"May 1, 2025",Western Section,CZ,"60,000","27,181","32,819",500,54
+"May 1, 2025",Western Section,POS22,"10,000","6,958","3,042",37,188
+"May 1, 2025",Western Section,C Gate GEN,"2,000","1,550",450,63,25
+"May 1, 2025",Western Section,C Gate Central Heating,"1,000",980,20,11,89
+"May 1, 2025",Southern Section,POS68,"20,000","19,705",295,88,224
+"May 1, 2025",Southern Section,POS80 GEN,"11,000","7,750","3,250",296,26
+"May 1, 2025",Southern Section,POS80 Fuel Station,"20,000","18,034","6,363",336,54
+"May 1, 2025",Southern Section,POS85,"10,000","8,901","1,099",56,159
+"May 1, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 1, 2025",UNDOF Vehicle Registration,2085,"16,000",547,0,0,0
+"May 1, 2025",UNDOF Vehicle Registration,2086,"16,000","16,000",0,0,0
+"May 1, 2025",UNDOF Vehicle Registration,2087,"16,000","16,000",0,0,0
+"May 1, 2025",UNDOF Vehicle Registration,4661,"16,000",0,0,0,0
+"May 1, 2025",UNDOF Vehicle Registration,4662,"16,000",149,0,0,0
+"May 1, 2025",UNDOF Vehicle Registration,4663,"16,000","16,000",0,0,0
+"May 1, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 1, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 2, 2025",Camp Faouar,CF Gen,"40,000","38,082","1,918","2,206",17
+"May 2, 2025",Camp Faouar,CF Fuel Station,"100,000","86,639",786,"1,024",85
+"May 2, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 2, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 2, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",533,467,11,48
+"May 2, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",565,435,11,51
+"May 2, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,819",181,11,165
+"May 2, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 2, 2025",ROD,ROD Fuel Station,"49,000","43,500","5,500",35,"1,243"
+"May 2, 2025",ROD,ROD Generator,"10,000","7,700","2,300",44,175
+"May 2, 2025",Northern Sector,HB GEN,"51,000","40,637","10,363",234,174
+"May 2, 2025",Northern Sector,HB Fuel Station,"22,500","21,599",901,8,"2,700"
+"May 2, 2025",Northern Sector,HH,"42,000","40,309","1,691",115,351
+"May 2, 2025",Northern Sector,HS,"37,000","35,638","1,362",162,220
+"May 2, 2025",Northern Sector,POS12 Fuel Station,"18,000","16,983","1,017",51,333
+"May 2, 2025",Northern Sector,POS12A GEN,"40,000","37,304","2,696",344,108
+"May 2, 2025",Central Section,POS10A,"20,000","19,649",351,87,226
+"May 2, 2025",Central Section,POS17A,"4,000","3,455",545,186,19
+"May 2, 2025",Central Section,POS 27 Fuel Station,"20,000","19,291",709,21,919
+"May 2, 2025",Central Section,POS27 Gen,"10,000","8,970","1,030",37,242
+"May 2, 2025",Central Section,POS32,"11,000","10,483",517,12,874
+"May 2, 2025",Central Section,POS37,"20,000","18,004","1,996",57,316
+"May 2, 2025",Central Section,POS60,"20,000","16,518","3,482",116,142
+"May 2, 2025",Western Section,CZ,"60,000","27,083","32,917",500,54
+"May 2, 2025",Western Section,POS22,"10,000","6,920","3,080",37,187
+"May 2, 2025",Western Section,C Gate GEN,"2,000","1,485",515,63,24
+"May 2, 2025",Western Section,C Gate Central Heating,"1,000",980,20,11,89
+"May 2, 2025",Southern Section,POS68,"20,000","19,675",325,88,224
+"May 2, 2025",Southern Section,POS80 GEN,"11,000","7,600","3,400",296,26
+"May 2, 2025",Southern Section,POS80 Fuel Station,"20,000","17,910","6,363",336,53
+"May 2, 2025",Southern Section,POS85,"10,000","8,852","1,148",56,158
+"May 2, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 2, 2025",UNDOF Vehicle Registration,2085,"16,000",101,0,0,0
+"May 2, 2025",UNDOF Vehicle Registration,2086,"16,000","16,000",0,0,0
+"May 2, 2025",UNDOF Vehicle Registration,2087,"16,000","16,000",0,0,0
+"May 2, 2025",UNDOF Vehicle Registration,4661,"16,000",0,0,0,0
+"May 2, 2025",UNDOF Vehicle Registration,4662,"16,000",0,0,0,0
+"May 2, 2025",UNDOF Vehicle Registration,4663,"16,000","16,000",0,0,0
+"May 2, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 2, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 3, 2025",Camp Faouar,CF Gen,,,0,0,0
+"May 3, 2025",Camp Faouar,CF Fuel Station,,,0,0,0
+"May 3, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,,,0,0,0
+"May 3, 2025",Camp Faouar,CF JOC GEN (Backup) ,,,0,0,0
+"May 3, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,,,0,0,0
+"May 3, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,,,0,0,0
+"May 3, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,,,0,0,0
+"May 3, 2025",Camp Faouar,Reserve VDP,,,0,0,0
+"May 3, 2025",ROD,ROD Fuel Station,,,0,0,0
+"May 3, 2025",ROD,ROD Generator,,,0,0,0
+"May 3, 2025",Northern Sector,HB GEN,,,0,0,0
+"May 3, 2025",Northern Sector,HB Fuel Station,,,0,0,0
+"May 3, 2025",Northern Sector,HH,,,0,0,0
+"May 3, 2025",Northern Sector,HS,,,0,0,0
+"May 3, 2025",Northern Sector,POS12 Fuel Station,,,0,0,0
+"May 3, 2025",Northern Sector,POS12A GEN,,,0,0,0
+"May 3, 2025",Central Section,POS10A,,,0,0,0
+"May 3, 2025",Central Section,POS17A,,,0,0,0
+"May 3, 2025",Central Section,POS 27 Fuel Station,,,0,0,0
+"May 3, 2025",Central Section,POS27 Gen,,,0,0,0
+"May 3, 2025",Central Section,POS32,,,0,0,0
+"May 3, 2025",Central Section,POS37,,,0,0,0
+"May 3, 2025",Central Section,POS60,,,0,0,0
+"May 3, 2025",Western Section,CZ,,,0,0,0
+"May 3, 2025",Western Section,POS22,,,0,0,0
+"May 3, 2025",Western Section,C Gate GEN,,,0,0,0
+"May 3, 2025",Western Section,C Gate Central Heating,,,0,0,0
+"May 3, 2025",Southern Section,POS68,,,0,0,0
+"May 3, 2025",Southern Section,POS80 GEN,,,0,0,0
+"May 3, 2025",Southern Section,POS80 Fuel Station,,,0,0,0
+"May 3, 2025",Southern Section,POS85,,,0,0,0
+"May 3, 2025",Southern Section,POS86B,,,0,0,0
+"May 3, 2025",UNDOF Vehicle Registration,2085,,,0,0,0
+"May 3, 2025",UNDOF Vehicle Registration,2086,,,0,0,0
+"May 3, 2025",UNDOF Vehicle Registration,2087,,,0,0,0
+"May 3, 2025",UNDOF Vehicle Registration,4661,,,0,0,0
+"May 3, 2025",UNDOF Vehicle Registration,4662,,,0,0,0
+"May 3, 2025",UNDOF Vehicle Registration,4663,,,0,0,0
+"May 3, 2025",UNDOF Vehicle Registration,4664,,,0,0,0
+"May 3, 2025",UNDOF Vehicle Registration,4665,,,0,0,0
+"May 4, 2025",Camp Faouar,CF Gen,,,0,0,0
+"May 4, 2025",Camp Faouar,CF Fuel Station,,,0,0,0
+"May 4, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,,,0,0,0
+"May 4, 2025",Camp Faouar,CF JOC GEN (Backup) ,,,0,0,0
+"May 4, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,,,0,0,0
+"May 4, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,,,0,0,0
+"May 4, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,,,0,0,0
+"May 4, 2025",Camp Faouar,Reserve VDP,,,0,0,0
+"May 4, 2025",ROD,ROD Fuel Station,,,0,0,0
+"May 4, 2025",ROD,ROD Generator,,,0,0,0
+"May 4, 2025",Northern Sector,HB GEN,,,0,0,0
+"May 4, 2025",Northern Sector,HB Fuel Station,,,0,0,0
+"May 4, 2025",Northern Sector,HH,,,0,0,0
+"May 4, 2025",Northern Sector,HS,,,0,0,0
+"May 4, 2025",Northern Sector,POS12 Fuel Station,,,0,0,0
+"May 4, 2025",Northern Sector,POS12A GEN,,,0,0,0
+"May 4, 2025",Central Section,POS10A,,,0,0,0
+"May 4, 2025",Central Section,POS17A,,,0,0,0
+"May 4, 2025",Central Section,POS 27 Fuel Station,,,0,0,0
+"May 4, 2025",Central Section,POS27 Gen,,,0,0,0
+"May 4, 2025",Central Section,POS32,,,0,0,0
+"May 4, 2025",Central Section,POS37,,,0,0,0
+"May 4, 2025",Central Section,POS60,,,0,0,0
+"May 4, 2025",Western Section,CZ,,,0,0,0
+"May 4, 2025",Western Section,POS22,,,0,0,0
+"May 4, 2025",Western Section,C Gate GEN,,,0,0,0
+"May 4, 2025",Western Section,C Gate Central Heating,,,0,0,0
+"May 4, 2025",Southern Section,POS68,,,0,0,0
+"May 4, 2025",Southern Section,POS80 GEN,,,0,0,0
+"May 4, 2025",Southern Section,POS80 Fuel Station,,,0,0,0
+"May 4, 2025",Southern Section,POS85,,,0,0,0
+"May 4, 2025",Southern Section,POS86B,,,0,0,0
+"May 4, 2025",UNDOF Vehicle Registration,2085,,,0,0,0
+"May 4, 2025",UNDOF Vehicle Registration,2086,,,0,0,0
+"May 4, 2025",UNDOF Vehicle Registration,2087,,,0,0,0
+"May 4, 2025",UNDOF Vehicle Registration,4661,,,0,0,0
+"May 4, 2025",UNDOF Vehicle Registration,4662,,,0,0,0
+"May 4, 2025",UNDOF Vehicle Registration,4663,,,0,0,0
+"May 4, 2025",UNDOF Vehicle Registration,4664,,,0,0,0
+"May 4, 2025",UNDOF Vehicle Registration,4665,,,0,0,0
+"May 5, 2025",Camp Faouar,CF Gen,"40,000","31,929","8,071","2,206",14
+"May 5, 2025",Camp Faouar,CF Fuel Station,"100,000","84,964",786,"1,024",83
+"May 5, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 5, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 5, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",400,600,11,36
+"May 5, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",515,485,11,47
+"May 5, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,470",530,11,134
+"May 5, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 5, 2025",ROD,ROD Fuel Station,"49,000","43,500","5,500",35,"1,243"
+"May 5, 2025",ROD,ROD Generator,"10,000","7,700","2,300",44,175
+"May 5, 2025",Northern Sector,HB GEN,"51,000","39,958","11,042",234,171
+"May 5, 2025",Northern Sector,HB Fuel Station,"22,500","21,599",901,8,"2,700"
+"May 5, 2025",Northern Sector,HH,"42,000","39,246","2,754",115,341
+"May 5, 2025",Northern Sector,HS,"37,000","35,159","1,841",162,217
+"May 5, 2025",Northern Sector,POS12 Fuel Station,"18,000","16,901","1,099",51,331
+"May 5, 2025",Northern Sector,POS12A GEN,"40,000","36,257","3,743",344,105
+"May 5, 2025",Central Section,POS10A,"20,000","19,451",549,87,224
+"May 5, 2025",Central Section,POS17A,"4,000","2,950","1,050",186,16
+"May 5, 2025",Central Section,POS 27 Fuel Station,"20,000","19,237",763,21,916
+"May 5, 2025",Central Section,POS27 Gen,"10,000","8,903","1,097",37,241
+"May 5, 2025",Central Section,POS32,"11,000","10,478",522,12,873
+"May 5, 2025",Central Section,POS37,"20,000","19,735",265,57,346
+"May 5, 2025",Central Section,POS60,"20,000","16,518","3,482",116,142
+"May 5, 2025",Western Section,CZ,"60,000","26,375","33,625",500,53
+"May 5, 2025",Western Section,POS22,"10,000","6,800","3,200",37,184
+"May 5, 2025",Western Section,C Gate GEN,"2,000","1,300",700,63,21
+"May 5, 2025",Western Section,C Gate Central Heating,"1,000",980,20,11,89
+"May 5, 2025",Southern Section,POS68,"20,000","17,514","2,486",88,199
+"May 5, 2025",Southern Section,POS80 GEN,"11,000","6,700","4,300",296,23
+"May 5, 2025",Southern Section,POS80 Fuel Station,"20,000","17,910","6,363",336,53
+"May 5, 2025",Southern Section,POS85,"10,000","8,621","1,379",56,154
+"May 5, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 5, 2025",UNDOF Vehicle Registration,2085,"16,000",0,0,0,0
+"May 5, 2025",UNDOF Vehicle Registration,2086,"16,000","16,000",0,0,0
+"May 5, 2025",UNDOF Vehicle Registration,2087,"16,000","16,000",0,0,0
+"May 5, 2025",UNDOF Vehicle Registration,4661,"16,000",0,0,0,0
+"May 5, 2025",UNDOF Vehicle Registration,4662,"16,000",0,0,0,0
+"May 5, 2025",UNDOF Vehicle Registration,4663,"16,000","16,000",0,0,0
+"May 5, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 5, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 6, 2025",Camp Faouar,CF Gen,"40,000","29,655","10,345","2,206",13
+"May 6, 2025",Camp Faouar,CF Fuel Station,"100,000","82,299",786,"1,024",80
+"May 6, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 6, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 6, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",400,600,11,36
+"May 6, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",515,485,11,47
+"May 6, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,470",530,11,134
+"May 6, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 6, 2025",ROD,ROD Fuel Station,"49,000","43,500","5,500",35,"1,243"
+"May 6, 2025",ROD,ROD Generator,"10,000","7,700","2,300",44,175
+"May 6, 2025",Northern Sector,HB GEN,"51,000","39,735","11,265",234,170
+"May 6, 2025",Northern Sector,HB Fuel Station,"22,500","21,599",901,8,"2,700"
+"May 6, 2025",Northern Sector,HH,"42,000","39,107","2,893",115,340
+"May 6, 2025",Northern Sector,HS,"37,000","35,018","1,982",162,216
+"May 6, 2025",Northern Sector,POS12 Fuel Station,"18,000","16,901","1,099",51,331
+"May 6, 2025",Northern Sector,POS12A GEN,"40,000","35,893","4,107",344,104
+"May 6, 2025",Central Section,POS10A,"20,000","19,362",638,87,223
+"May 6, 2025",Central Section,POS17A,"4,000","2,785","1,215",186,15
+"May 6, 2025",Central Section,POS 27 Fuel Station,"20,000","19,237",763,21,916
+"May 6, 2025",Central Section,POS27 Gen,"10,000","8,877","1,123",37,240
+"May 6, 2025",Central Section,POS32,"11,000","10,478",522,12,873
+"May 6, 2025",Central Section,POS37,"20,000","19,697",303,57,346
+"May 6, 2025",Central Section,POS60,"20,000","16,153","3,847",116,139
+"May 6, 2025",Western Section,CZ,"60,000","25,759","34,241",500,52
+"May 6, 2025",Western Section,POS22,"10,000","6,795","3,205",37,184
+"May 6, 2025",Western Section,C Gate GEN,"2,000","1,225",775,63,19
+"May 6, 2025",Western Section,C Gate Central Heating,"1,000",980,20,11,89
+"May 6, 2025",Southern Section,POS68,"20,000","19,535",465,88,222
+"May 6, 2025",Southern Section,POS80 GEN,"11,000","6,500","4,500",296,22
+"May 6, 2025",Southern Section,POS80 Fuel Station,"20,000","17,236","6,363",336,51
+"May 6, 2025",Southern Section,POS85,"10,000","8,593","1,407",56,153
+"May 6, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 6, 2025",UNDOF Vehicle Registration,2085,"16,000",0,0,0,0
+"May 6, 2025",UNDOF Vehicle Registration,2086,"16,000","13,003",0,0,0
+"May 6, 2025",UNDOF Vehicle Registration,2087,"16,000","16,000",0,0,0
+"May 6, 2025",UNDOF Vehicle Registration,4661,"16,000",0,0,0,0
+"May 6, 2025",UNDOF Vehicle Registration,4662,"16,000",0,0,0,0
+"May 6, 2025",UNDOF Vehicle Registration,4663,"16,000","16,000",0,0,0
+"May 6, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 6, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 7, 2025",Camp Faouar,CF Gen,"40,000","27,570","12,430","2,206",12
+"May 7, 2025",Camp Faouar,CF Fuel Station,"100,000","81,471",786,"1,024",80
+"May 7, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 7, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 7, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",400,600,11,36
+"May 7, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",515,485,11,47
+"May 7, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,470",530,11,134
+"May 7, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 7, 2025",ROD,ROD Fuel Station,"49,000","42,000","7,000",35,"1,200"
+"May 7, 2025",ROD,ROD Generator,"10,000","9,000","1,000",44,205
+"May 7, 2025",Northern Sector,HB GEN,"51,000","39,525","11,475",234,169
+"May 7, 2025",Northern Sector,HB Fuel Station,"22,500","21,599",901,8,"2,700"
+"May 7, 2025",Northern Sector,HH,"42,000","39,009","2,991",115,339
+"May 7, 2025",Northern Sector,HS,"37,000","34,881","2,119",162,215
+"May 7, 2025",Northern Sector,POS12 Fuel Station,"18,000","16,704","1,296",51,328
+"May 7, 2025",Northern Sector,POS12A GEN,"40,000","35,556","4,444",344,103
+"May 7, 2025",Central Section,POS10A,"20,000","19,254",746,87,221
+"May 7, 2025",Central Section,POS17A,"4,000","2,605","1,395",186,14
+"May 7, 2025",Central Section,POS 27 Fuel Station,"20,000","19,220",780,21,915
+"May 7, 2025",Central Section,POS27 Gen,"10,000","8,856","1,144",37,239
+"May 7, 2025",Central Section,POS32,"11,000","10,474",526,12,873
+"May 7, 2025",Central Section,POS37,"20,000","19,638",362,57,345
+"May 7, 2025",Central Section,POS60,"20,000","16,093","3,907",116,139
+"May 7, 2025",Western Section,CZ,"60,000","25,594","34,406",500,51
+"May 7, 2025",Western Section,POS22,"10,000","6,780","3,220",37,183
+"May 7, 2025",Western Section,C Gate GEN,"2,000","1,170",830,63,19
+"May 7, 2025",Western Section,C Gate Central Heating,"1,000",950,50,11,86
+"May 7, 2025",Southern Section,POS68,"20,000","19,510",490,88,222
+"May 7, 2025",Southern Section,POS80 GEN,"11,000","6,300","4,700",296,21
+"May 7, 2025",Southern Section,POS80 Fuel Station,"20,000","16,137","6,363",336,48
+"May 7, 2025",Southern Section,POS85,"10,000","8,530","1,470",56,152
+"May 7, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 7, 2025",UNDOF Vehicle Registration,2085,"16,000",0,0,0,0
+"May 7, 2025",UNDOF Vehicle Registration,2086,"16,000","13,003",0,0,0
+"May 7, 2025",UNDOF Vehicle Registration,2087,"16,000","16,000",0,0,0
+"May 7, 2025",UNDOF Vehicle Registration,4661,"16,000",0,0,0,0
+"May 7, 2025",UNDOF Vehicle Registration,4662,"16,000",0,0,0,0
+"May 7, 2025",UNDOF Vehicle Registration,4663,"16,000","16,000",0,0,0
+"May 7, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 7, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 8, 2025",Camp Faouar,CF Gen,"40,000","25,486","14,514","2,206",12
+"May 8, 2025",Camp Faouar,CF Fuel Station,"100,000","80,359",786,"1,024",78
+"May 8, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 8, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 8, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",400,600,11,36
+"May 8, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",515,485,11,47
+"May 8, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,470",530,11,134
+"May 8, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 8, 2025",ROD,ROD Fuel Station,"49,000","42,000","7,000",35,"1,200"
+"May 8, 2025",ROD,ROD Generator,"10,000","9,000","1,000",44,205
+"May 8, 2025",Northern Sector,HB GEN,"51,000","39,320","11,680",234,168
+"May 8, 2025",Northern Sector,HB Fuel Station,"22,500","21,599",901,8,"2,700"
+"May 8, 2025",Northern Sector,HH,"42,000","38,909","3,091",115,338
+"May 8, 2025",Northern Sector,HS,"37,000","34,735","2,265",162,214
+"May 8, 2025",Northern Sector,POS12 Fuel Station,"18,000","16,704","1,296",51,328
+"May 8, 2025",Northern Sector,POS12A GEN,"40,000","35,268","4,732",344,103
+"May 8, 2025",Central Section,POS10A,"20,000","19,169",831,87,220
+"May 8, 2025",Central Section,POS17A,"4,000","2,435","1,565",186,13
+"May 8, 2025",Central Section,POS 27 Fuel Station,"20,000","19,220",780,21,915
+"May 8, 2025",Central Section,POS27 Gen,"10,000","8,836","1,164",37,239
+"May 8, 2025",Central Section,POS32,"11,000","10,472",528,12,873
+"May 8, 2025",Central Section,POS37,"20,000","19,587",413,57,344
+"May 8, 2025",Central Section,POS60,"20,000","16,093","3,907",116,139
+"May 8, 2025",Western Section,CZ,"60,000","25,404","34,596",500,51
+"May 8, 2025",Western Section,POS22,"10,000","7,180","2,820",37,194
+"May 8, 2025",Western Section,C Gate GEN,"2,000","1,110",890,63,18
+"May 8, 2025",Western Section,C Gate Central Heating,"1,000",950,50,11,86
+"May 8, 2025",Southern Section,POS68,"20,000","19,485",515,88,221
+"May 8, 2025",Southern Section,POS80 GEN,"11,000","6,100","4,900",296,21
+"May 8, 2025",Southern Section,POS80 Fuel Station,"20,000","16,137","6,363",336,48
+"May 8, 2025",Southern Section,POS85,"10,000","8,453","1,547",56,151
+"May 8, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 8, 2025",UNDOF Vehicle Registration,2085,"16,000",0,0,0,0
+"May 8, 2025",UNDOF Vehicle Registration,2086,"16,000","13,003",0,0,0
+"May 8, 2025",UNDOF Vehicle Registration,2087,"16,000","16,000",0,0,0
+"May 8, 2025",UNDOF Vehicle Registration,4661,"16,000",0,0,0,0
+"May 8, 2025",UNDOF Vehicle Registration,4662,"16,000",0,0,0,0
+"May 8, 2025",UNDOF Vehicle Registration,4663,"16,000","16,000",0,0,0
+"May 8, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 8, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 9, 2025",Camp Faouar,CF Gen,"40,000","23,302","16,698","2,206",11
+"May 9, 2025",Camp Faouar,CF Fuel Station,"100,000","78,884",786,"1,024",77
+"May 9, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 9, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 9, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",400,600,11,36
+"May 9, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",515,485,11,47
+"May 9, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,470",530,11,134
+"May 9, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 9, 2025",ROD,ROD Fuel Station,"49,000","42,000","7,000",35,"1,200"
+"May 9, 2025",ROD,ROD Generator,"10,000","9,000","1,000",44,205
+"May 9, 2025",Northern Sector,HB GEN,"51,000","39,111","11,889",234,167
+"May 9, 2025",Northern Sector,HB Fuel Station,"22,500","21,599",901,8,"2,700"
+"May 9, 2025",Northern Sector,HH,"42,000","38,813","3,187",115,338
+"May 9, 2025",Northern Sector,HS,"37,000","34,601","2,399",162,214
+"May 9, 2025",Northern Sector,POS12 Fuel Station,"18,000","16,554","1,446",51,325
+"May 9, 2025",Northern Sector,POS12A GEN,"40,000","34,969","5,031",344,102
+"May 9, 2025",Central Section,POS10A,"20,000","19,101",899,87,220
+"May 9, 2025",Central Section,POS17A,"4,000","2,250","1,750",186,12
+"May 9, 2025",Central Section,POS 27 Fuel Station,"20,000","19,220",780,21,915
+"May 9, 2025",Central Section,POS27 Gen,"10,000","8,816","1,184",37,238
+"May 9, 2025",Central Section,POS32,"11,000","10,472",528,12,873
+"May 9, 2025",Central Section,POS37,"20,000","19,564",436,57,343
+"May 9, 2025",Central Section,POS60,"20,000","15,974","4,026",116,138
+"May 9, 2025",Western Section,CZ,"60,000","24,995","35,005",500,50
+"May 9, 2025",Western Section,POS22,"10,000","6,770","3,230",37,183
+"May 9, 2025",Western Section,C Gate GEN,"2,000","1,050",950,63,17
+"May 9, 2025",Western Section,C Gate Central Heating,"1,000",950,50,11,86
+"May 9, 2025",Southern Section,POS68,"20,000","19,450",550,88,221
+"May 9, 2025",Southern Section,POS80 GEN,"11,000","5,900","5,100",296,20
+"May 9, 2025",Southern Section,POS80 Fuel Station,"20,000","16,137","6,363",336,48
+"May 9, 2025",Southern Section,POS85,"10,000","8,404","1,596",56,150
+"May 9, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 9, 2025",UNDOF Vehicle Registration,2085,"16,000",0,0,0,0
+"May 9, 2025",UNDOF Vehicle Registration,2086,"16,000","13,003",0,0,0
+"May 9, 2025",UNDOF Vehicle Registration,2087,"16,000","16,000",0,0,0
+"May 9, 2025",UNDOF Vehicle Registration,4661,"16,000",0,0,0,0
+"May 9, 2025",UNDOF Vehicle Registration,4662,"16,000",0,0,0,0
+"May 9, 2025",UNDOF Vehicle Registration,4663,"16,000","16,000",0,0,0
+"May 9, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 9, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 10, 2025",Camp Faouar,CF Gen,,,0,0,0
+"May 10, 2025",Camp Faouar,CF Fuel Station,,,0,0,0
+"May 10, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,,,0,0,0
+"May 10, 2025",Camp Faouar,CF JOC GEN (Backup) ,,,0,0,0
+"May 10, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,,,0,0,0
+"May 10, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,,,0,0,0
+"May 10, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,,,0,0,0
+"May 10, 2025",Camp Faouar,Reserve VDP,,,0,0,0
+"May 10, 2025",ROD,ROD Fuel Station,,,0,0,0
+"May 10, 2025",ROD,ROD Generator,,,0,0,0
+"May 10, 2025",Northern Sector,HB GEN,,,0,0,0
+"May 10, 2025",Northern Sector,HB Fuel Station,,,0,0,0
+"May 10, 2025",Northern Sector,HH,,,0,0,0
+"May 10, 2025",Northern Sector,HS,,,0,0,0
+"May 10, 2025",Northern Sector,POS12 Fuel Station,,,0,0,0
+"May 10, 2025",Northern Sector,POS12A GEN,,,0,0,0
+"May 10, 2025",Central Section,POS10A,,,0,0,0
+"May 10, 2025",Central Section,POS17A,,,0,0,0
+"May 10, 2025",Central Section,POS 27 Fuel Station,,,0,0,0
+"May 10, 2025",Central Section,POS27 Gen,,,0,0,0
+"May 10, 2025",Central Section,POS32,,,0,0,0
+"May 10, 2025",Central Section,POS37,,,0,0,0
+"May 10, 2025",Central Section,POS60,,,0,0,0
+"May 10, 2025",Western Section,CZ,,,0,0,0
+"May 10, 2025",Western Section,POS22,,,0,0,0
+"May 10, 2025",Western Section,C Gate GEN,,,0,0,0
+"May 10, 2025",Western Section,C Gate Central Heating,,,0,0,0
+"May 10, 2025",Southern Section,POS68,,,0,0,0
+"May 10, 2025",Southern Section,POS80 GEN,,,0,0,0
+"May 10, 2025",Southern Section,POS80 Fuel Station,,,0,0,0
+"May 10, 2025",Southern Section,POS85,,,0,0,0
+"May 10, 2025",Southern Section,POS86B,,,0,0,0
+"May 10, 2025",UNDOF Vehicle Registration,2085,,,0,0,0
+"May 10, 2025",UNDOF Vehicle Registration,2086,,,0,0,0
+"May 10, 2025",UNDOF Vehicle Registration,2087,,,0,0,0
+"May 10, 2025",UNDOF Vehicle Registration,4661,,,0,0,0
+"May 10, 2025",UNDOF Vehicle Registration,4662,,,0,0,0
+"May 10, 2025",UNDOF Vehicle Registration,4663,,,0,0,0
+"May 10, 2025",UNDOF Vehicle Registration,4664,,,0,0,0
+"May 10, 2025",UNDOF Vehicle Registration,4665,,,0,0,0
+"May 11, 2025",Camp Faouar,CF Gen,,,0,0,0
+"May 11, 2025",Camp Faouar,CF Fuel Station,,,0,0,0
+"May 11, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,,,0,0,0
+"May 11, 2025",Camp Faouar,CF JOC GEN (Backup) ,,,0,0,0
+"May 11, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,,,0,0,0
+"May 11, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,,,0,0,0
+"May 11, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,,,0,0,0
+"May 11, 2025",Camp Faouar,Reserve VDP,,,0,0,0
+"May 11, 2025",ROD,ROD Fuel Station,,,0,0,0
+"May 11, 2025",ROD,ROD Generator,,,0,0,0
+"May 11, 2025",Northern Sector,HB GEN,,,0,0,0
+"May 11, 2025",Northern Sector,HB Fuel Station,,,0,0,0
+"May 11, 2025",Northern Sector,HH,,,0,0,0
+"May 11, 2025",Northern Sector,HS,,,0,0,0
+"May 11, 2025",Northern Sector,POS12 Fuel Station,,,0,0,0
+"May 11, 2025",Northern Sector,POS12A GEN,,,0,0,0
+"May 11, 2025",Central Section,POS10A,,,0,0,0
+"May 11, 2025",Central Section,POS17A,,,0,0,0
+"May 11, 2025",Central Section,POS 27 Fuel Station,,,0,0,0
+"May 11, 2025",Central Section,POS27 Gen,,,0,0,0
+"May 11, 2025",Central Section,POS32,,,0,0,0
+"May 11, 2025",Central Section,POS37,,,0,0,0
+"May 11, 2025",Central Section,POS60,,,0,0,0
+"May 11, 2025",Western Section,CZ,,,0,0,0
+"May 11, 2025",Western Section,POS22,,,0,0,0
+"May 11, 2025",Western Section,C Gate GEN,,,0,0,0
+"May 11, 2025",Western Section,C Gate Central Heating,,,0,0,0
+"May 11, 2025",Southern Section,POS68,,,0,0,0
+"May 11, 2025",Southern Section,POS80 GEN,,,0,0,0
+"May 11, 2025",Southern Section,POS80 Fuel Station,,,0,0,0
+"May 11, 2025",Southern Section,POS85,,,0,0,0
+"May 11, 2025",Southern Section,POS86B,,,0,0,0
+"May 11, 2025",UNDOF Vehicle Registration,2085,,,0,0,0
+"May 11, 2025",UNDOF Vehicle Registration,2086,,,0,0,0
+"May 11, 2025",UNDOF Vehicle Registration,2087,,,0,0,0
+"May 11, 2025",UNDOF Vehicle Registration,4661,,,0,0,0
+"May 11, 2025",UNDOF Vehicle Registration,4662,,,0,0,0
+"May 11, 2025",UNDOF Vehicle Registration,4663,,,0,0,0
+"May 11, 2025",UNDOF Vehicle Registration,4664,,,0,0,0
+"May 11, 2025",UNDOF Vehicle Registration,4665,,,0,0,0
+"May 12, 2025",Camp Faouar,CF Gen,"40,000","34,203","5,797","2,206",16
+"May 12, 2025",Camp Faouar,CF Fuel Station,"100,000","77,591",786,"1,024",76
+"May 12, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 12, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 12, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",400,600,11,36
+"May 12, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",515,485,11,47
+"May 12, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,470",530,11,134
+"May 12, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 12, 2025",ROD,ROD Fuel Station,"49,000","42,000","7,000",35,"1,200"
+"May 12, 2025",ROD,ROD Generator,"10,000","9,000","1,000",44,205
+"May 12, 2025",Northern Sector,HB GEN,"51,000","38,487","12,513",234,164
+"May 12, 2025",Northern Sector,HB Fuel Station,"22,500","21,599",901,8,"2,700"
+"May 12, 2025",Northern Sector,HH,"42,000","38,536","3,464",115,335
+"May 12, 2025",Northern Sector,HS,"37,000","34,223","2,777",162,211
+"May 12, 2025",Northern Sector,POS12 Fuel Station,"18,000","16,468","1,532",51,323
+"May 12, 2025",Northern Sector,POS12A GEN,"40,000","34,067","5,933",344,99
+"May 12, 2025",Central Section,POS10A,"20,000","18,887","1,113",87,217
+"May 12, 2025",Central Section,POS17A,"4,000","1,710","2,290",186,9
+"May 12, 2025",Central Section,POS 27 Fuel Station,"20,000","18,720","1,280",21,891
+"May 12, 2025",Central Section,POS27 Gen,"10,000","8,818","1,182",37,238
+"May 12, 2025",Central Section,POS32,"11,000","10,466",534,12,872
+"May 12, 2025",Central Section,POS37,"20,000","19,523",477,57,343
+"May 12, 2025",Central Section,POS60,"20,000","15,803","4,197",116,136
+"May 12, 2025",Western Section,CZ,"60,000","24,528","35,472",500,49
+"May 12, 2025",Western Section,POS22,"10,000","6,740","3,260",37,182
+"May 12, 2025",Western Section,C Gate GEN,"2,000",860,"1,140",63,14
+"May 12, 2025",Western Section,C Gate Central Heating,"1,000",950,50,11,86
+"May 12, 2025",Southern Section,POS68,"20,000","19,360",640,88,220
+"May 12, 2025",Southern Section,POS80 GEN,"11,000","5,300","5,700",296,18
+"May 12, 2025",Southern Section,POS80 Fuel Station,"20,000","15,068","6,363",336,45
+"May 12, 2025",Southern Section,POS85,"10,000","8,299","1,701",56,148
+"May 12, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 12, 2025",UNDOF Vehicle Registration,2085,"16,000",0,0,0,0
+"May 12, 2025",UNDOF Vehicle Registration,2086,"16,000","13,003",0,0,0
+"May 12, 2025",UNDOF Vehicle Registration,2087,"16,000",0,0,0,0
+"May 12, 2025",UNDOF Vehicle Registration,4661,"16,000",0,0,0,0
+"May 12, 2025",UNDOF Vehicle Registration,4662,"16,000",0,0,0,0
+"May 12, 2025",UNDOF Vehicle Registration,4663,"16,000","16,000",0,0,0
+"May 12, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 12, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 13, 2025",Camp Faouar,CF Gen,"40,000","31,929","8,071","2,206",14
+"May 13, 2025",Camp Faouar,CF Fuel Station,"100,000","75,191",786,"1,024",73
+"May 13, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 13, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 13, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",400,600,11,36
+"May 13, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",515,485,11,47
+"May 13, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,470",530,11,134
+"May 13, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 13, 2025",ROD,ROD Fuel Station,"49,000","42,000","7,000",35,"1,200"
+"May 13, 2025",ROD,ROD Generator,"10,000","9,000","1,000",44,205
+"May 13, 2025",Northern Sector,HB GEN,"51,000","47,692","3,308",234,204
+"May 13, 2025",Northern Sector,HB Fuel Station,"22,500","21,454","1,046",8,"2,682"
+"May 13, 2025",Northern Sector,HH,"42,000","38,429","3,571",115,334
+"May 13, 2025",Northern Sector,HS,"37,000","34,223","2,777",162,211
+"May 13, 2025",Northern Sector,POS12 Fuel Station,"18,000","16,468","1,532",51,323
+"May 13, 2025",Northern Sector,POS12A GEN,"40,000","33,768","6,232",344,98
+"May 13, 2025",Central Section,POS10A,"20,000","18,816","1,184",87,216
+"May 13, 2025",Central Section,POS17A,"4,000","1,540","2,460",186,8
+"May 13, 2025",Central Section,POS 27 Fuel Station,"20,000","18,651","1,349",21,888
+"May 13, 2025",Central Section,POS27 Gen,"10,000","8,800","1,200",37,238
+"May 13, 2025",Central Section,POS32,"11,000","10,466",534,12,872
+"May 13, 2025",Central Section,POS37,"20,000","19,493",507,57,342
+"May 13, 2025",Central Section,POS60,"20,000","15,740","4,260",116,136
+"May 13, 2025",Western Section,CZ,"60,000","26,158","33,842",500,52
+"May 13, 2025",Western Section,POS22,"10,000","6,690","3,310",37,181
+"May 13, 2025",Western Section,C Gate GEN,"2,000",800,"1,200",63,13
+"May 13, 2025",Western Section,C Gate Central Heating,"1,000",950,50,11,86
+"May 13, 2025",Southern Section,POS68,"20,000","19,961",39,88,227
+"May 13, 2025",Southern Section,POS80 GEN,"11,000","10,257",743,296,35
+"May 13, 2025",Southern Section,POS80 Fuel Station,"20,000","15,068","6,363",336,45
+"May 13, 2025",Southern Section,POS85,"10,000","8,180","1,820",56,146
+"May 13, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 13, 2025",UNDOF Vehicle Registration,2085,"16,000",0,0,0,0
+"May 13, 2025",UNDOF Vehicle Registration,2086,"16,000","1,029",0,0,0
+"May 13, 2025",UNDOF Vehicle Registration,2087,"16,000",0,0,0,0
+"May 13, 2025",UNDOF Vehicle Registration,4661,"16,000",0,0,0,0
+"May 13, 2025",UNDOF Vehicle Registration,4662,"16,000",0,0,0,0
+"May 13, 2025",UNDOF Vehicle Registration,4663,"16,000","6,590",0,0,0
+"May 13, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 13, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 14, 2025",Camp Faouar,CF Gen,"40,000","29,844","10,156","2,206",14
+"May 14, 2025",Camp Faouar,CF Fuel Station,"100,000","74,078",786,"1,024",72
+"May 14, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 14, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 14, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",400,600,11,36
+"May 14, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",515,485,11,47
+"May 14, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,470",530,11,134
+"May 14, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 14, 2025",ROD,ROD Fuel Station,"49,000","42,000","7,000",35,"1,200"
+"May 14, 2025",ROD,ROD Generator,"10,000","9,000","1,000",44,205
+"May 14, 2025",Northern Sector,HB GEN,"51,000","47,482","3,518",234,203
+"May 14, 2025",Northern Sector,HB Fuel Station,"22,500","21,454","1,046",8,"2,682"
+"May 14, 2025",Northern Sector,HH,"42,000","38,300","3,700",115,333
+"May 14, 2025",Northern Sector,HS,"37,000","33,982","3,018",162,210
+"May 14, 2025",Northern Sector,POS12 Fuel Station,"18,000","16,309","1,691",51,320
+"May 14, 2025",Northern Sector,POS12A GEN,"40,000","33,443","6,557",344,97
+"May 14, 2025",Central Section,POS10A,"20,000","18,746","1,254",87,215
+"May 14, 2025",Central Section,POS17A,"4,000","1,400","2,600",186,8
+"May 14, 2025",Central Section,POS 27 Fuel Station,"20,000","18,651","1,349",21,888
+"May 14, 2025",Central Section,POS27 Gen,"10,000","8,800","1,200",37,238
+"May 14, 2025",Central Section,POS32,"11,000","10,466",534,12,872
+"May 14, 2025",Central Section,POS37,"20,000","19,476",524,57,342
+"May 14, 2025",Central Section,POS60,"20,000","15,691","4,309",116,135
+"May 14, 2025",Western Section,CZ,"60,000","40,728","19,272",500,81
+"May 14, 2025",Western Section,POS22,"10,000","6,685","3,315",37,181
+"May 14, 2025",Western Section,C Gate GEN,"2,000",750,"1,250",63,12
+"May 14, 2025",Western Section,C Gate Central Heating,"1,000",950,50,11,86
+"May 14, 2025",Southern Section,POS68,"20,000","19,300",700,88,219
+"May 14, 2025",Southern Section,POS80 GEN,"11,000","9,975","1,025",296,34
+"May 14, 2025",Southern Section,POS80 Fuel Station,"20,000","19,214","6,363",336,57
+"May 14, 2025",Southern Section,POS85,"10,000","8,180","1,820",56,146
+"May 14, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 14, 2025",UNDOF Vehicle Registration,2085,"16,000","16,000",0,0,0
+"May 14, 2025",UNDOF Vehicle Registration,2086,"16,000","1,029",0,0,0
+"May 14, 2025",UNDOF Vehicle Registration,2087,"16,000",0,0,0,0
+"May 14, 2025",UNDOF Vehicle Registration,4661,"16,000","16,000",0,0,0
+"May 14, 2025",UNDOF Vehicle Registration,4662,"16,000","16,000",0,0,0
+"May 14, 2025",UNDOF Vehicle Registration,4663,"16,000","6,590",0,0,0
+"May 14, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 14, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 15, 2025",Camp Faouar,CF Gen,"40,000","34,588","5,412","2,206",16
+"May 15, 2025",Camp Faouar,CF Fuel Station,"100,000","73,277",786,"1,024",72
+"May 15, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 15, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 15, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",400,600,11,36
+"May 15, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",515,485,11,47
+"May 15, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,470",530,0,0
+"May 15, 2025",Camp Faouar,Reserve VDP,"49,000","42,000","7,000",35,"1,200"
+"May 15, 2025",ROD,ROD Fuel Station,"10,000","9,000","1,000",44,205
+"May 15, 2025",ROD,ROD Generator,"51,000","47,262","3,738",234,202
+"May 15, 2025",Northern Sector,HB GEN,"22,500","21,454","1,046",8,"2,682"
+"May 15, 2025",Northern Sector,HB Fuel Station,"42,000","38,172","3,828",115,332
+"May 15, 2025",Northern Sector,HH,"37,000","33,847","3,153",162,209
+"May 15, 2025",Northern Sector,HS,"18,000","16,129","1,871",51,316
+"May 15, 2025",Northern Sector,POS12 Fuel Station,"40,000",33091,"6,909",344,96
+"May 15, 2025",Northern Sector,POS12A GEN,"20,000","18,656","1,344",87,214
+"May 15, 2025",Central Section,POS10A,"4,000","1,335","2,665",186,7
+"May 15, 2025",Central Section,POS17A,"20,000","18,631","1,369",21,887
+"May 15, 2025",Central Section,POS 27 Fuel Station,"10,000","8,800","1,200",37,238
+"May 15, 2025",Central Section,POS27 Gen,"11,000","10,463",537,12,872
+"May 15, 2025",Central Section,POS32,"20,000","19,441",559,57,341
+"May 15, 2025",Central Section,POS37,"20,000","15,638","4,362",116,135
+"May 15, 2025",Central Section,POS60,"60,000","40,370","19,630",500,81
+"May 15, 2025",Western Section,CZ,"10,000","6,685","3,315",37,181
+"May 15, 2025",Western Section,POS22,"2,000","2,000",0,63,32
+"May 15, 2025",Western Section,C Gate GEN,"1,000",950,50,11,86
+"May 15, 2025",Western Section,C Gate Central Heating,"20,000","19,275",725,88,219
+"May 15, 2025",Southern Section,POS68,"11,000","10,022",978,296,34
+"May 15, 2025",Southern Section,POS80 GEN,"20,000","19,175","6,363",336,57
+"May 15, 2025",Southern Section,POS80 Fuel Station,"10,000","8,180","1,820",56,146
+"May 15, 2025",Southern Section,POS85,"10,000","8,180","1,820",56,146
+"May 15, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 15, 2025",UNDOF Vehicle Registration,2085,"16,000","16,000",0,0,0
+"May 15, 2025",UNDOF Vehicle Registration,2086,"16,000",0,0,0,0
+"May 15, 2025",UNDOF Vehicle Registration,2087,"16,000",0,0,0,0
+"May 15, 2025",UNDOF Vehicle Registration,4661,"16,000","16,000",0,0,0
+"May 15, 2025",UNDOF Vehicle Registration,4662,"16,000","16,000",0,0,0
+"May 15, 2025",UNDOF Vehicle Registration,4663,"16,000",58,0,0,0
+"May 15, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 15, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 16, 2025",Camp Faouar,CF Gen,"40,000","32,498","7,502","2,206",15
+"May 16, 2025",Camp Faouar,CF Fuel Station,"100,000","72,171",786,"1,024",70
+"May 16, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 16, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 16, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",400,600,11,36
+"May 16, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",515,485,11,47
+"May 16, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,470",530,11,134
+"May 16, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 16, 2025",ROD,ROD Fuel Station,"49,000","42,000","7,000",35,"1,200"
+"May 16, 2025",ROD,ROD Generator,"10,000","9,000","1,000",44,205
+"May 16, 2025",Northern Sector,HB GEN,"51,000","47,037","3,963",234,201
+"May 16, 2025",Northern Sector,HB Fuel Station,"22,500","21,454","1,046",8,"2,682"
+"May 16, 2025",Northern Sector,HH,"42,000","38,047","3,953",115,331
+"May 16, 2025",Northern Sector,HS,"37,000","33,707","3,293",162,208
+"May 16, 2025",Northern Sector,POS12 Fuel Station,"18,000","16,129","1,871",51,316
+"May 16, 2025",Northern Sector,POS12A GEN,"40,000",32756,"7,244",344,95
+"May 16, 2025",Central Section,POS10A,"20,000","18,559","1,441",87,213
+"May 16, 2025",Central Section,POS17A,"4,000","1,280","2,720",186,7
+"May 16, 2025",Central Section,POS 27 Fuel Station,"20,000","18,584","1,416",21,885
+"May 16, 2025",Central Section,POS27 Gen,"10,000","8,800","1,200",37,238
+"May 16, 2025",Central Section,POS32,"11,000","10,463",537,12,872
+"May 16, 2025",Central Section,POS37,"20,000","19,393",607,57,340
+"May 16, 2025",Central Section,POS60,"20,000","15,578","4,422",116,134
+"May 16, 2025",Western Section,CZ,"60,000","39,984","20,016",500,80
+"May 16, 2025",Western Section,POS22,"10,000","6,600","3,400",37,178
+"May 16, 2025",Western Section,C Gate GEN,"2,000","1,475",525,63,23
+"May 16, 2025",Western Section,C Gate Central Heating,"1,000",950,50,11,86
+"May 16, 2025",Southern Section,POS68,"20,000","19,250",750,88,219
+"May 16, 2025",Southern Section,POS80 GEN,"11,000","9,522","1,478",296,32
+"May 16, 2025",Southern Section,POS80 Fuel Station,"20,000","19,175","6,363",336,57
+"May 16, 2025",Southern Section,POS85,"10,000","8,117","1,883",56,145
+"May 16, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 16, 2025",UNDOF Vehicle Registration,2085,"16,000","16,000",0,0,0
+"May 16, 2025",UNDOF Vehicle Registration,2086,"16,000",0,0,0,0
+"May 16, 2025",UNDOF Vehicle Registration,2087,"16,000",0,0,0,0
+"May 16, 2025",UNDOF Vehicle Registration,4661,"16,000","16,000",0,0,0
+"May 16, 2025",UNDOF Vehicle Registration,4662,"16,000","16,000",0,0,0
+"May 16, 2025",UNDOF Vehicle Registration,4663,"16,000",0,0,0,0
+"May 16, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 16, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 17, 2025",Camp Faouar,CF Gen,,,0,0,0
+"May 17, 2025",Camp Faouar,CF Fuel Station,,,0,0,0
+"May 17, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,,,0,0,0
+"May 17, 2025",Camp Faouar,CF JOC GEN (Backup) ,,,0,0,0
+"May 17, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,,,0,0,0
+"May 17, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,,,0,0,0
+"May 17, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,,,0,0,0
+"May 17, 2025",Camp Faouar,Reserve VDP,,,0,0,0
+"May 17, 2025",ROD,ROD Fuel Station,,,0,0,0
+"May 17, 2025",ROD,ROD Generator,,,0,0,0
+"May 17, 2025",Northern Sector,HB GEN,,,0,0,0
+"May 17, 2025",Northern Sector,HB Fuel Station,,,0,0,0
+"May 17, 2025",Northern Sector,HH,,,0,0,0
+"May 17, 2025",Northern Sector,HS,,,0,0,0
+"May 17, 2025",Northern Sector,POS12 Fuel Station,,,0,0,0
+"May 17, 2025",Northern Sector,POS12A GEN,,,0,0,0
+"May 17, 2025",Central Section,POS10A,,,0,0,0
+"May 17, 2025",Central Section,POS17A,,,0,0,0
+"May 17, 2025",Central Section,POS 27 Fuel Station,,,0,0,0
+"May 17, 2025",Central Section,POS27 Gen,,,0,0,0
+"May 17, 2025",Central Section,POS32,,,0,0,0
+"May 17, 2025",Central Section,POS37,,,0,0,0
+"May 17, 2025",Central Section,POS60,,,0,0,0
+"May 17, 2025",Western Section,CZ,,,0,0,0
+"May 17, 2025",Western Section,POS22,,,0,0,0
+"May 17, 2025",Western Section,C Gate GEN,,,0,0,0
+"May 17, 2025",Western Section,C Gate Central Heating,,,0,0,0
+"May 17, 2025",Southern Section,POS68,,,0,0,0
+"May 17, 2025",Southern Section,POS80 GEN,,,0,0,0
+"May 17, 2025",Southern Section,POS80 Fuel Station,,,0,0,0
+"May 17, 2025",Southern Section,POS85,,,0,0,0
+"May 17, 2025",Southern Section,POS86B,,,0,0,0
+"May 17, 2025",UNDOF Vehicle Registration,2085,,,0,0,0
+"May 17, 2025",UNDOF Vehicle Registration,2086,,,0,0,0
+"May 17, 2025",UNDOF Vehicle Registration,2087,,,0,0,0
+"May 17, 2025",UNDOF Vehicle Registration,4661,,,0,0,0
+"May 17, 2025",UNDOF Vehicle Registration,4662,,,0,0,0
+"May 17, 2025",UNDOF Vehicle Registration,4663,,,0,0,0
+"May 17, 2025",UNDOF Vehicle Registration,4664,,,0,0,0
+"May 17, 2025",UNDOF Vehicle Registration,4665,,,0,0,0
+"May 18, 2025",Camp Faouar,CF Gen,,,0,0,0
+"May 18, 2025",Camp Faouar,CF Fuel Station,,,0,0,0
+"May 18, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,,,0,0,0
+"May 18, 2025",Camp Faouar,CF JOC GEN (Backup) ,,,0,0,0
+"May 18, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,,,0,0,0
+"May 18, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,,,0,0,0
+"May 18, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,,,0,0,0
+"May 18, 2025",Camp Faouar,Reserve VDP,,,0,0,0
+"May 18, 2025",ROD,ROD Fuel Station,,,0,0,0
+"May 18, 2025",ROD,ROD Generator,,,0,0,0
+"May 18, 2025",Northern Sector,HB GEN,,,0,0,0
+"May 18, 2025",Northern Sector,HB Fuel Station,,,0,0,0
+"May 18, 2025",Northern Sector,HH,,,0,0,0
+"May 18, 2025",Northern Sector,HS,,,0,0,0
+"May 18, 2025",Northern Sector,POS12 Fuel Station,,,0,0,0
+"May 18, 2025",Northern Sector,POS12A GEN,,,0,0,0
+"May 18, 2025",Central Section,POS10A,,,0,0,0
+"May 18, 2025",Central Section,POS17A,,,0,0,0
+"May 18, 2025",Central Section,POS 27 Fuel Station,,,0,0,0
+"May 18, 2025",Central Section,POS27 Gen,,,0,0,0
+"May 18, 2025",Central Section,POS32,,,0,0,0
+"May 18, 2025",Central Section,POS37,,,0,0,0
+"May 18, 2025",Central Section,POS60,,,0,0,0
+"May 18, 2025",Western Section,CZ,,,0,0,0
+"May 18, 2025",Western Section,POS22,,,0,0,0
+"May 18, 2025",Western Section,C Gate GEN,,,0,0,0
+"May 18, 2025",Western Section,C Gate Central Heating,,,0,0,0
+"May 18, 2025",Southern Section,POS68,,,0,0,0
+"May 18, 2025",Southern Section,POS80 GEN,,,0,0,0
+"May 18, 2025",Southern Section,POS80 Fuel Station,,,0,0,0
+"May 18, 2025",Southern Section,POS85,,,0,0,0
+"May 18, 2025",Southern Section,POS86B,,,0,0,0
+"May 18, 2025",UNDOF Vehicle Registration,2085,,,0,0,0
+"May 18, 2025",UNDOF Vehicle Registration,2086,,,0,0,0
+"May 18, 2025",UNDOF Vehicle Registration,2087,,,0,0,0
+"May 18, 2025",UNDOF Vehicle Registration,4661,,,0,0,0
+"May 18, 2025",UNDOF Vehicle Registration,4662,,,0,0,0
+"May 18, 2025",UNDOF Vehicle Registration,4663,,,0,0,0
+"May 18, 2025",UNDOF Vehicle Registration,4664,,,0,0,0
+"May 18, 2025",UNDOF Vehicle Registration,4665,,,0,0,0
+"May 19, 2025",Camp Faouar,CF Gen,"40,000","26,055","13,945","2,206",12
+"May 19, 2025",Camp Faouar,CF Fuel Station,"100,000","70,464",786,"1,024",69
+"May 19, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 19, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 19, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",400,600,11,36
+"May 19, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",515,485,11,47
+"May 19, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,470",530,11,134
+"May 19, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 19, 2025",ROD,ROD Fuel Station,"49,000","42,000","7,000",35,"1,200"
+"May 19, 2025",ROD,ROD Generator,"10,000","9,000","1,000",44,205
+"May 19, 2025",Northern Sector,HB GEN,"51,000","46,646","4,354",234,199
+"May 19, 2025",Northern Sector,HB Fuel Station,"22,500","21,454","1,046",8,"2,682"
+"May 19, 2025",Northern Sector,HH,"42,000","37,865","4,135",115,329
+"May 19, 2025",Northern Sector,HS,"37,000","33,470","3,530",162,207
+"May 19, 2025",Northern Sector,POS12 Fuel Station,"18,000","15,767","2,233",51,309
+"May 19, 2025",Northern Sector,POS12A GEN,"40,000",32147,"7,853",344,93
+"May 19, 2025",Central Section,POS10A,"20,000","18,304","1,696",87,210
+"May 19, 2025",Central Section,POS17A,"4,000","1,280","2,720",186,7
+"May 19, 2025",Central Section,POS 27 Fuel Station,"20,000","18,259","1,741",21,869
+"May 19, 2025",Central Section,POS27 Gen,"10,000","8,756","1,244",37,237
+"May 19, 2025",Central Section,POS32,"11,000","10,463",537,12,872
+"May 19, 2025",Central Section,POS37,"20,000","19,273",727,57,338
+"May 19, 2025",Central Section,POS60,"20,000","15,414","4,586",116,133
+"May 19, 2025",Western Section,CZ,"60,000","39,645","20,355",500,79
+"May 19, 2025",Western Section,POS22,"10,000","6,580","3,420",37,178
+"May 19, 2025",Western Section,C Gate GEN,"2,000","1,325",675,63,21
+"May 19, 2025",Western Section,C Gate Central Heating,"1,000",950,50,11,86
+"May 19, 2025",Southern Section,POS68,"20,000","19,150",850,88,218
+"May 19, 2025",Southern Section,POS80 GEN,"11,000","8,322","2,678",296,28
+"May 19, 2025",Southern Section,POS80 Fuel Station,"20,000","18,267","6,363",336,54
+"May 19, 2025",Southern Section,POS85,"10,000","8,012","1,988",56,143
+"May 19, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 19, 2025",UNDOF Vehicle Registration,2085,"16,000","16,000",0,0,0
+"May 19, 2025",UNDOF Vehicle Registration,2086,"16,000",0,0,0,0
+"May 19, 2025",UNDOF Vehicle Registration,2087,"16,000",0,0,0,0
+"May 19, 2025",UNDOF Vehicle Registration,4661,"16,000","16,000",0,0,0
+"May 19, 2025",UNDOF Vehicle Registration,4662,"16,000","16,000",0,0,0
+"May 19, 2025",UNDOF Vehicle Registration,4663,"16,000",0,0,0,0
+"May 19, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 19, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 20, 2025",Camp Faouar,CF Gen,"40,000","23,871","16,129","2,206",11
+"May 20, 2025",Camp Faouar,CF Fuel Station,"100,000","69,121",786,"1,024",68
+"May 20, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 20, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 20, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",400,600,11,36
+"May 20, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",515,485,11,47
+"May 20, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,470",530,11,134
+"May 20, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 20, 2025",ROD,ROD Fuel Station,"49,000","42,000","7,000",35,"1,200"
+"May 20, 2025",ROD,ROD Generator,"10,000","9,000","1,000",44,205
+"May 20, 2025",Northern Sector,HB GEN,"51,000","46,454","4,546",234,199
+"May 20, 2025",Northern Sector,HB Fuel Station,"22,500","21,454","1,046",8,"2,682"
+"May 20, 2025",Northern Sector,HH,"42,000","37,765","4,235",115,328
+"May 20, 2025",Northern Sector,HS,"37,000","33,360","3,640",162,206
+"May 20, 2025",Northern Sector,POS12 Fuel Station,"18,000","15,686","2,314",51,308
+"May 20, 2025",Northern Sector,POS12A GEN,"40,000",31839,"8,161",344,93
+"May 20, 2025",Central Section,POS10A,"20,000","18,226","1,774",87,209
+"May 20, 2025",Central Section,POS17A,"4,000","1,280","2,720",186,7
+"May 20, 2025",Central Section,POS 27 Fuel Station,"20,000","18,259","1,741",21,869
+"May 20, 2025",Central Section,POS27 Gen,"10,000","8,741","1,259",37,236
+"May 20, 2025",Central Section,POS32,"11,000","10,463",537,12,872
+"May 20, 2025",Central Section,POS37,"20,000","19,256",744,57,338
+"May 20, 2025",Central Section,POS60,"20,000","15,363","4,637",116,132
+"May 20, 2025",Western Section,CZ,"60,000","6,570","53,430",500,13
+"May 20, 2025",Western Section,POS22,"10,000","6,570","3,430",37,178
+"May 20, 2025",Western Section,C Gate GEN,"2,000","1,270",730,63,20
+"May 20, 2025",Western Section,C Gate Central Heating,"1,000",950,50,11,86
+"May 20, 2025",Southern Section,POS68,"20,000","19,110",890,88,217
+"May 20, 2025",Southern Section,POS80 GEN,"11,000","8,072","2,928",296,27
+"May 20, 2025",Southern Section,POS80 Fuel Station,"20,000","18,238","6,363",336,54
+"May 20, 2025",Southern Section,POS85,"10,000","7,949","2,051",56,142
+"May 20, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 20, 2025",UNDOF Vehicle Registration,2085,"16,000","16,000",0,0,0
+"May 20, 2025",UNDOF Vehicle Registration,2086,"16,000",0,0,0,0
+"May 20, 2025",UNDOF Vehicle Registration,2087,"16,000",0,0,0,0
+"May 20, 2025",UNDOF Vehicle Registration,4661,"16,000","16,000",0,0,0
+"May 20, 2025",UNDOF Vehicle Registration,4662,"16,000","16,000",0,0,0
+"May 20, 2025",UNDOF Vehicle Registration,4663,"16,000",0,0,0,0
+"May 20, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 20, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 21, 2025",Camp Faouar,CF Gen,"40,000","21,696","18,304","2,206",10
+"May 21, 2025",Camp Faouar,CF Fuel Station,"100,000","67,552",786,"1,024",66
+"May 21, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 21, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 21, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",400,600,11,36
+"May 21, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",515,485,11,47
+"May 21, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,470",530,11,134
+"May 21, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 21, 2025",ROD,ROD Fuel Station,"49,000","42,000","7,000",35,"1,200"
+"May 21, 2025",ROD,ROD Generator,"10,000","9,000","1,000",44,205
+"May 21, 2025",Northern Sector,HB GEN,"51,000","46,089","4,911",234,197
+"May 21, 2025",Northern Sector,HB Fuel Station,"22,500","21,454","1,046",8,"2,682"
+"May 21, 2025",Northern Sector,HH,"42,000","37,618","4,382",115,327
+"May 21, 2025",Northern Sector,HS,"37,000","33,150","3,850",162,205
+"May 21, 2025",Northern Sector,POS12 Fuel Station,"18,000","15,513","2,487",51,304
+"May 21, 2025",Northern Sector,POS12A GEN,"40,000",31243,"8,757",344,91
+"May 21, 2025",Central Section,POS10A,"20,000","18,150","1,850",87,209
+"May 21, 2025",Central Section,POS17A,"4,000","1,280","2,720",186,7
+"May 21, 2025",Central Section,POS 27 Fuel Station,"20,000","18,259","1,741",21,869
+"May 21, 2025",Central Section,POS27 Gen,"10,000","8,741","1,259",37,236
+"May 21, 2025",Central Section,POS32,"11,000","10,463",537,12,872
+"May 21, 2025",Central Section,POS37,"20,000","19,229",771,57,337
+"May 21, 2025",Central Section,POS60,"20,000","15,312","4,688",116,132
+"May 21, 2025",Western Section,CZ,"60,000","38,684","21,316",500,77
+"May 21, 2025",Western Section,POS22,"10,000","6,560","3,440",37,177
+"May 21, 2025",Western Section,C Gate GEN,"2,000","1,210",790,63,19
+"May 21, 2025",Western Section,C Gate Central Heating,"1,000",950,50,11,86
+"May 21, 2025",Southern Section,POS68,"20,000","19,085",915,88,217
+"May 21, 2025",Southern Section,POS80 GEN,"11,000","7,772","3,228",296,26
+"May 21, 2025",Southern Section,POS80 Fuel Station,"20,000","17,819","6,363",336,53
+"May 21, 2025",Southern Section,POS85,"10,000","7,942","2,058",56,142
+"May 21, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 21, 2025",UNDOF Vehicle Registration,2085,"16,000","16,000",0,0,0
+"May 21, 2025",UNDOF Vehicle Registration,2086,"16,000",0,0,0,0
+"May 21, 2025",UNDOF Vehicle Registration,2087,"16,000",0,0,0,0
+"May 21, 2025",UNDOF Vehicle Registration,4661,"16,000","16,000",0,0,0
+"May 21, 2025",UNDOF Vehicle Registration,4662,"16,000","16,000",0,0,0
+"May 21, 2025",UNDOF Vehicle Registration,4663,"16,000",0,0,0,0
+"May 21, 2025",UNDOF Vehicle Registration,4664,"16,000",0,0,0,0
+"May 21, 2025",UNDOF Vehicle Registration,4665,"16,000","16,000",0,0,0
+"May 22, 2025",Camp Faouar,CF Gen,"40,000","36,666","3,334","2,206",17
+"May 22, 2025",Camp Faouar,CF Fuel Station,"100,000","66,286",786,"1,024",65
+"May 22, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 22, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 22, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",533,467,11,48
+"May 22, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",565,435,11,51
+"May 22, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,819",181,11,165
+"May 22, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 22, 2025",ROD,ROD Fuel Station,"49,000","42,000","7,000",35,"1,200"
+"May 22, 2025",ROD,ROD Generator,"10,000","9,000","1,000",44,205
+"May 22, 2025",Northern Sector,HB GEN,"51,000","45,919","5,081",234,196
+"May 22, 2025",Northern Sector,HB Fuel Station,"22,500","21,454","1,046",8,"2,682"
+"May 22, 2025",Northern Sector,HH,"42,000","37,528","4,472",115,326
+"May 22, 2025",Northern Sector,HS,"37,000","33,064","3,936",162,204
+"May 22, 2025",Northern Sector,POS12 Fuel Station,"18,000","15,267","2,733",51,299
+"May 22, 2025",Northern Sector,POS12A GEN,"40,000",30936,"9,064",344,90
+"May 22, 2025",Central Section,POS10A,"20,000","18,082","1,918",87,208
+"May 22, 2025",Central Section,POS17A,"4,000","1,280","2,720",186,7
+"May 22, 2025",Central Section,POS 27 Fuel Station,"20,000","17,795","2,205",21,847
+"May 22, 2025",Central Section,POS27 Gen,"10,000","8,727","1,273",37,236
+"May 22, 2025",Central Section,POS32,"11,000","10,463",537,12,872
+"May 22, 2025",Central Section,POS37,"20,000","19,195",805,57,337
+"May 22, 2025",Central Section,POS60,"20,000","15,274","4,726",116,132
+"May 22, 2025",Western Section,CZ,"60,000","38,359","21,641",500,77
+"May 22, 2025",Western Section,POS22,"10,000","6,555","3,445",37,177
+"May 22, 2025",Western Section,C Gate GEN,"2,000","1,210",790,63,19
+"May 22, 2025",Western Section,C Gate Central Heating,"1,000",950,50,11,86
+"May 22, 2025",Southern Section,POS68,"20,000","19,060",940,88,217
+"May 22, 2025",Southern Section,POS80 GEN,"11,000","7,572","3,428",296,26
+"May 22, 2025",Southern Section,POS80 Fuel Station,"20,000","17,787","6,363",336,53
+"May 22, 2025",Southern Section,POS85,"10,000","7,928","2,072",56,142
+"May 22, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 22, 2025",UNDOF Vehicle Registration,2085,"16,000","16,000",0,0,0
+"May 22, 2025",UNDOF Vehicle Registration,2086,"16,000","16,000",0,0,0
+"May 22, 2025",UNDOF Vehicle Registration,2087,"16,000","14,972",0,0,0
+"May 22, 2025",UNDOF Vehicle Registration,4661,"16,000","16,000",0,0,0
+"May 22, 2025",UNDOF Vehicle Registration,4662,"16,000","16,000",0,0,0
+"May 22, 2025",UNDOF Vehicle Registration,4663,"16,000","16,000",0,0,0
+"May 22, 2025",UNDOF Vehicle Registration,4664,"16,000","16,000",0,0,0
+"May 22, 2025",UNDOF Vehicle Registration,4665,"16,000",19,0,0,0
+"May 23, 2025",Camp Faouar,CF Gen,"40,000","33,634","6,366","2,206",15
+"May 23, 2025",Camp Faouar,CF Fuel Station,"100,000","65,507",786,"1,024",64
+"May 23, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,11,53
+"May 23, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,11,41
+"May 23, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",533,467,11,48
+"May 23, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",565,435,11,51
+"May 23, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,819",181,11,165
+"May 23, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 23, 2025",ROD,ROD Fuel Station,"49,000","42,000","7,000",35,"1,200"
+"May 23, 2025",ROD,ROD Generator,"10,000","9,000","1,000",44,205
+"May 23, 2025",Northern Sector,HB GEN,"51,000","45,703","5,297",234,195
+"May 23, 2025",Northern Sector,HB Fuel Station,"22,500","21,454","1,046",8,"2,682"
+"May 23, 2025",Northern Sector,HH,"42,000","37,428","4,572",115,325
+"May 23, 2025",Northern Sector,HS,"37,000","32,971","4,029",162,204
+"May 23, 2025",Northern Sector,POS12 Fuel Station,"18,000","15,227","2,773",51,299
+"May 23, 2025",Northern Sector,POS12A GEN,"40,000",30936,"9,064",344,90
+"May 23, 2025",Central Section,POS10A,"20,000","18,013","1,987",87,207
+"May 23, 2025",Central Section,POS17A,"4,000","1,280","2,720",186,7
+"May 23, 2025",Central Section,POS 27 Fuel Station,"20,000","17,795","2,205",21,847
+"May 23, 2025",Central Section,POS27 Gen,"10,000","8,710","1,290",37,235
+"May 23, 2025",Central Section,POS32,"11,000","10,463",537,12,872
+"May 23, 2025",Central Section,POS37,"20,000","19,176",824,57,336
+"May 23, 2025",Central Section,POS60,"20,000","15,215","4,785",116,131
+"May 23, 2025",Western Section,CZ,"60,000","38,097","21,903",500,76
+"May 23, 2025",Western Section,POS22,"10,000","6,550","3,450",37,177
+"May 23, 2025",Western Section,C Gate GEN,"2,000","1,100",900,63,17
+"May 23, 2025",Western Section,C Gate Central Heating,"1,000",950,50,11,86
+"May 23, 2025",Southern Section,POS68,"20,000","19,060",940,88,217
+"May 23, 2025",Southern Section,POS80 GEN,"11,000","7,272","3,728",296,25
+"May 23, 2025",Southern Section,POS80 Fuel Station,"20,000","17,628","6,363",336,52
+"May 23, 2025",Southern Section,POS85,"10,000","7,872","2,128",56,141
+"May 23, 2025",Southern Section,POS86B,"20,000","20,000",0,44,455
+"May 23, 2025",UNDOF Vehicle Registration,2085,"16,000","16,000",0,0,0
+"May 23, 2025",UNDOF Vehicle Registration,2086,"16,000","16,000",0,0,0
+"May 23, 2025",UNDOF Vehicle Registration,2087,"16,000","14,972",0,0,0
+"May 23, 2025",UNDOF Vehicle Registration,4661,"16,000","16,000",0,0,0
+"May 23, 2025",UNDOF Vehicle Registration,4662,"16,000","13,800",0,0,0
+"May 23, 2025",UNDOF Vehicle Registration,4663,"16,000","16,000",0,0,0
+"May 23, 2025",UNDOF Vehicle Registration,4664,"16,000","16,000",0,0,0
+"May 23, 2025",UNDOF Vehicle Registration,4665,"16,000",0,0,0,0
+"May 24, 2025",Camp Faouar,CF Gen,,,0,0,0
+"May 24, 2025",Camp Faouar,CF Fuel Station,,,0,0,0
+"May 24, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,,,0,0,0
+"May 24, 2025",Camp Faouar,CF JOC GEN (Backup) ,,,0,0,0
+"May 24, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,,,0,0,0
+"May 24, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,,,0,0,0
+"May 24, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,,,0,0,0
+"May 24, 2025",Camp Faouar,Reserve VDP,,,0,0,0
+"May 24, 2025",ROD,ROD Fuel Station,,,0,0,0
+"May 24, 2025",ROD,ROD Generator,,,0,0,0
+"May 24, 2025",Northern Sector,HB GEN,,,0,0,0
+"May 24, 2025",Northern Sector,HB Fuel Station,,,0,0,0
+"May 24, 2025",Northern Sector,HH,,,0,0,0
+"May 24, 2025",Northern Sector,HS,,,0,0,0
+"May 24, 2025",Northern Sector,POS12 Fuel Station,,,0,0,0
+"May 24, 2025",Northern Sector,POS12A GEN,,,0,0,0
+"May 24, 2025",Central Section,POS10A,,,0,0,0
+"May 24, 2025",Central Section,POS17A,,,0,0,0
+"May 24, 2025",Central Section,POS 27 Fuel Station,,,0,0,0
+"May 24, 2025",Central Section,POS27 Gen,,,0,0,0
+"May 24, 2025",Central Section,POS32,,,0,0,0
+"May 24, 2025",Central Section,POS37,,,0,0,0
+"May 24, 2025",Central Section,POS60,,,0,0,0
+"May 24, 2025",Western Section,CZ,,,0,0,0
+"May 24, 2025",Western Section,POS22,,,0,0,0
+"May 24, 2025",Western Section,C Gate GEN,,,0,0,0
+"May 24, 2025",Western Section,C Gate Central Heating,,,0,0,0
+"May 24, 2025",Southern Section,POS68,,,0,0,0
+"May 24, 2025",Southern Section,POS80 GEN,,,0,0,0
+"May 24, 2025",Southern Section,POS80 Fuel Station,,,0,0,0
+"May 24, 2025",Southern Section,POS85,,,0,0,0
+"May 24, 2025",Southern Section,POS86B,,,0,0,0
+"May 24, 2025",UNDOF Vehicle Registration,2085,,,0,0,0
+"May 24, 2025",UNDOF Vehicle Registration,2086,,,0,0,0
+"May 24, 2025",UNDOF Vehicle Registration,2087,,,0,0,0
+"May 24, 2025",UNDOF Vehicle Registration,4661,,,0,0,0
+"May 24, 2025",UNDOF Vehicle Registration,4662,,,0,0,0
+"May 24, 2025",UNDOF Vehicle Registration,4663,,,0,0,0
+"May 24, 2025",UNDOF Vehicle Registration,4664,,,0,0,0
+"May 24, 2025",UNDOF Vehicle Registration,4665,,,0,0,0
+"May 25, 2025",Camp Faouar,CF Gen,,,0,0,0
+"May 25, 2025",Camp Faouar,CF Fuel Station,,,0,0,0
+"May 25, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,,,0,0,0
+"May 25, 2025",Camp Faouar,CF JOC GEN (Backup) ,,,0,0,0
+"May 25, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,,,0,0,0
+"May 25, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,,,0,0,0
+"May 25, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,,,0,0,0
+"May 25, 2025",Camp Faouar,Reserve VDP,,,0,0,0
+"May 25, 2025",ROD,ROD Fuel Station,,,0,0,0
+"May 25, 2025",ROD,ROD Generator,,,0,0,0
+"May 25, 2025",Northern Sector,HB GEN,,,0,0,0
+"May 25, 2025",Northern Sector,HB Fuel Station,,,0,0,0
+"May 25, 2025",Northern Sector,HH,,,0,0,0
+"May 25, 2025",Northern Sector,HS,,,0,0,0
+"May 25, 2025",Northern Sector,POS12 Fuel Station,,,0,0,0
+"May 25, 2025",Northern Sector,POS12A GEN,,,0,0,0
+"May 25, 2025",Central Section,POS10A,,,0,0,0
+"May 25, 2025",Central Section,POS17A,,,0,0,0
+"May 25, 2025",Central Section,POS 27 Fuel Station,,,0,0,0
+"May 25, 2025",Central Section,POS27 Gen,,,0,0,0
+"May 25, 2025",Central Section,POS32,,,0,0,0
+"May 25, 2025",Central Section,POS37,,,0,0,0
+"May 25, 2025",Central Section,POS60,,,0,0,0
+"May 25, 2025",Western Section,CZ,,,0,0,0
+"May 25, 2025",Western Section,POS22,,,0,0,0
+"May 25, 2025",Western Section,C Gate GEN,,,0,0,0
+"May 25, 2025",Western Section,C Gate Central Heating,,,0,0,0
+"May 25, 2025",Southern Section,POS68,,,0,0,0
+"May 25, 2025",Southern Section,POS80 GEN,,,0,0,0
+"May 25, 2025",Southern Section,POS80 Fuel Station,,,0,0,0
+"May 25, 2025",Southern Section,POS85,,,0,0,0
+"May 25, 2025",Southern Section,POS86B,,,0,0,0
+"May 25, 2025",UNDOF Vehicle Registration,2085,,,0,0,0
+"May 25, 2025",UNDOF Vehicle Registration,2086,,,0,0,0
+"May 25, 2025",UNDOF Vehicle Registration,2087,,,0,0,0
+"May 25, 2025",UNDOF Vehicle Registration,4661,,,0,0,0
+"May 25, 2025",UNDOF Vehicle Registration,4662,,,0,0,0
+"May 25, 2025",UNDOF Vehicle Registration,4663,,,0,0,0
+"May 25, 2025",UNDOF Vehicle Registration,4664,,,0,0,0
+"May 25, 2025",UNDOF Vehicle Registration,4665,,,0,0,0
+"May 26, 2025",Camp Faouar,CF Gen,"40,000","27,520","12,480","2,179",13
+"May 26, 2025",Camp Faouar,CF Fuel Station,"100,000","63,049",786,36,"1,751"
+"May 26, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,"1,000",587,413,0,0
+"May 26, 2025",Camp Faouar,CF JOC GEN (Backup) ,"1,000",446,554,0,0
+"May 26, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,"1,000",533,467,0,0
+"May 26, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,"1,000",565,435,0,0
+"May 26, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,"2,000","1,819",181,0,0
+"May 26, 2025",Camp Faouar,Reserve VDP,"20,000","19,389",611,0,0
+"May 26, 2025",ROD,ROD Fuel Station,"49,000","40,000","9,000",50,800
+"May 26, 2025",ROD,ROD Generator,"10,000","5,000","5,000",50,100
+"May 26, 2025",Northern Sector,HB GEN,"51,000","45,421","5,579",82,554
+"May 26, 2025",Northern Sector,HB Fuel Station,"22,500","21,454","1,046",0,0
+"May 26, 2025",Northern Sector,HH,"42,000","37,223","4,777",76,490
+"May 26, 2025",Northern Sector,HS,"37,000","32,704","4,296",89,367
+"May 26, 2025",Northern Sector,POS12 Fuel Station,"18,000","15,167","2,833",0,0
+"May 26, 2025",Northern Sector,POS12A GEN,"40,000",29765,"10,235",301,99
+"May 26, 2025",Central Section,POS10A,"20,000","17,806","2,194",75,237
+"May 26, 2025",Central Section,POS17A,"4,000","4,000",0,0,0
+"May 26, 2025",Central Section,POS 27 Fuel Station,"20,000","17,704","2,296",0,0
+"May 26, 2025",Central Section,POS27 Gen,"10,000","8,685","1,315",0,0
+"May 26, 2025",Central Section,POS32,"11,000","10,463",537,0,0
+"May 26, 2025",Central Section,POS37,"20,000","19,087",913,32,596
+"May 26, 2025",Central Section,POS60,"20,000","15,057","4,943",43,350
+"May 26, 2025",Western Section,CZ,"60,000","37,815","22,185",0,0
+"May 26, 2025",Western Section,POS22,"10,000","5,420","4,580",10,542
+"May 26, 2025",Western Section,C Gate GEN,"2,000",905,"1,095",55,16
+"May 26, 2025",Western Section,C Gate Central Heating,"1,000",950,50,0,0
+"May 26, 2025",Southern Section,POS68,"20,000","18,960","1,040",25,758
+"May 26, 2025",Southern Section,POS80 GEN,"11,000","6,327","4,673",295,21
+"May 26, 2025",Southern Section,POS80 Fuel Station,"20,000","16,873","6,363",275,61
+"May 26, 2025",Southern Section,POS85,"10,000","7,739","2,261",14,553
+"May 26, 2025",Southern Section,POS86B,"20,000","20,000",0,70,286
+"May 26, 2025",UNDOF Vehicle Registration,2085,"16,000","16,000",0,0,0
+"May 26, 2025",UNDOF Vehicle Registration,2086,"16,000","16,000",0,0,0
+"May 26, 2025",UNDOF Vehicle Registration,2087,"16,000","14,972",0,0,0
+"May 26, 2025",UNDOF Vehicle Registration,4661,"16,000","16,000",0,0,0
+"May 26, 2025",UNDOF Vehicle Registration,4662,"16,000","13,800",0,0,0
+"May 26, 2025",UNDOF Vehicle Registration,4663,"16,000","16,000",0,0,0
+"May 26, 2025",UNDOF Vehicle Registration,4664,"16,000","16,000",0,0,0
+"May 26, 2025",UNDOF Vehicle Registration,4665,"16,000",0,0,0,0
+"May 27, 2025",Camp Faouar,CF Gen,,,0,0,0
+"May 27, 2025",Camp Faouar,CF Fuel Station,,,0,0,0
+"May 27, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,,,0,0,0
+"May 27, 2025",Camp Faouar,CF JOC GEN (Backup) ,,,0,0,0
+"May 27, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,,,0,0,0
+"May 27, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,,,0,0,0
+"May 27, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,,,0,0,0
+"May 27, 2025",Camp Faouar,Reserve VDP,,,0,0,0
+"May 27, 2025",ROD,ROD Fuel Station,,,0,0,0
+"May 27, 2025",ROD,ROD Generator,,,0,0,0
+"May 27, 2025",Northern Sector,HB GEN,,,0,0,0
+"May 27, 2025",Northern Sector,HB Fuel Station,,,0,0,0
+"May 27, 2025",Northern Sector,HH,,,0,0,0
+"May 27, 2025",Northern Sector,HS,,,0,0,0
+"May 27, 2025",Northern Sector,POS12 Fuel Station,,,0,0,0
+"May 27, 2025",Northern Sector,POS12A GEN,,,0,0,0
+"May 27, 2025",Central Section,POS10A,,,0,0,0
+"May 27, 2025",Central Section,POS17A,,,0,0,0
+"May 27, 2025",Central Section,POS 27 Fuel Station,,,0,0,0
+"May 27, 2025",Central Section,POS27 Gen,,,0,0,0
+"May 27, 2025",Central Section,POS32,,,0,0,0
+"May 27, 2025",Central Section,POS37,,,0,0,0
+"May 27, 2025",Central Section,POS60,,,0,0,0
+"May 27, 2025",Western Section,CZ,,,0,0,0
+"May 27, 2025",Western Section,POS22,,,0,0,0
+"May 27, 2025",Western Section,C Gate GEN,,,0,0,0
+"May 27, 2025",Western Section,C Gate Central Heating,,,0,0,0
+"May 27, 2025",Southern Section,POS68,,,0,0,0
+"May 27, 2025",Southern Section,POS80 GEN,,,0,0,0
+"May 27, 2025",Southern Section,POS80 Fuel Station,,,0,0,0
+"May 27, 2025",Southern Section,POS85,,,0,0,0
+"May 27, 2025",Southern Section,POS86B,,,0,0,0
+"May 27, 2025",UNDOF Vehicle Registration,2085,,,0,0,0
+"May 27, 2025",UNDOF Vehicle Registration,2086,,,0,0,0
+"May 27, 2025",UNDOF Vehicle Registration,2087,,,0,0,0
+"May 27, 2025",UNDOF Vehicle Registration,4661,,,0,0,0
+"May 27, 2025",UNDOF Vehicle Registration,4662,,,0,0,0
+"May 27, 2025",UNDOF Vehicle Registration,4663,,,0,0,0
+"May 27, 2025",UNDOF Vehicle Registration,4664,,,0,0,0
+"May 27, 2025",UNDOF Vehicle Registration,4665,,,0,0,0
+"May 28, 2025",Camp Faouar,CF Gen,,,0,0,0
+"May 28, 2025",Camp Faouar,CF Fuel Station,,,0,0,0
+"May 28, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,,,0,0,0
+"May 28, 2025",Camp Faouar,CF JOC GEN (Backup) ,,,0,0,0
+"May 28, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,,,0,0,0
+"May 28, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,,,0,0,0
+"May 28, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,,,0,0,0
+"May 28, 2025",Camp Faouar,Reserve VDP,,,0,0,0
+"May 28, 2025",ROD,ROD Fuel Station,,,0,0,0
+"May 28, 2025",ROD,ROD Generator,,,0,0,0
+"May 28, 2025",Northern Sector,HB GEN,,,0,0,0
+"May 28, 2025",Northern Sector,HB Fuel Station,,,0,0,0
+"May 28, 2025",Northern Sector,HH,,,0,0,0
+"May 28, 2025",Northern Sector,HS,,,0,0,0
+"May 28, 2025",Northern Sector,POS12 Fuel Station,,,0,0,0
+"May 28, 2025",Northern Sector,POS12A GEN,,,0,0,0
+"May 28, 2025",Central Section,POS10A,,,0,0,0
+"May 28, 2025",Central Section,POS17A,,,0,0,0
+"May 28, 2025",Central Section,POS 27 Fuel Station,,,0,0,0
+"May 28, 2025",Central Section,POS27 Gen,,,0,0,0
+"May 28, 2025",Central Section,POS32,,,0,0,0
+"May 28, 2025",Central Section,POS37,,,0,0,0
+"May 28, 2025",Central Section,POS60,,,0,0,0
+"May 28, 2025",Western Section,CZ,,,0,0,0
+"May 28, 2025",Western Section,POS22,,,0,0,0
+"May 28, 2025",Western Section,C Gate GEN,,,0,0,0
+"May 28, 2025",Western Section,C Gate Central Heating,,,0,0,0
+"May 28, 2025",Southern Section,POS68,,,0,0,0
+"May 28, 2025",Southern Section,POS80 GEN,,,0,0,0
+"May 28, 2025",Southern Section,POS80 Fuel Station,,,0,0,0
+"May 28, 2025",Southern Section,POS85,,,0,0,0
+"May 28, 2025",Southern Section,POS86B,,,0,0,0
+"May 28, 2025",UNDOF Vehicle Registration,2085,,,0,0,0
+"May 28, 2025",UNDOF Vehicle Registration,2086,,,0,0,0
+"May 28, 2025",UNDOF Vehicle Registration,2087,,,0,0,0
+"May 28, 2025",UNDOF Vehicle Registration,4661,,,0,0,0
+"May 28, 2025",UNDOF Vehicle Registration,4662,,,0,0,0
+"May 28, 2025",UNDOF Vehicle Registration,4663,,,0,0,0
+"May 28, 2025",UNDOF Vehicle Registration,4664,,,0,0,0
+"May 28, 2025",UNDOF Vehicle Registration,4665,,,0,0,0
+"May 29, 2025",Camp Faouar,CF Gen,,,0,0,0
+"May 29, 2025",Camp Faouar,CF Fuel Station,,,0,0,0
+"May 29, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,,,0,0,0
+"May 29, 2025",Camp Faouar,CF JOC GEN (Backup) ,,,0,0,0
+"May 29, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,,,0,0,0
+"May 29, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,,,0,0,0
+"May 29, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,,,0,0,0
+"May 29, 2025",Camp Faouar,Reserve VDP,,,0,0,0
+"May 29, 2025",ROD,ROD Fuel Station,,,0,0,0
+"May 29, 2025",ROD,ROD Generator,,,0,0,0
+"May 29, 2025",Northern Sector,HB GEN,,,0,0,0
+"May 29, 2025",Northern Sector,HB Fuel Station,,,0,0,0
+"May 29, 2025",Northern Sector,HH,,,0,0,0
+"May 29, 2025",Northern Sector,HS,,,0,0,0
+"May 29, 2025",Northern Sector,POS12 Fuel Station,,,0,0,0
+"May 29, 2025",Northern Sector,POS12A GEN,,,0,0,0
+"May 29, 2025",Central Section,POS10A,,,0,0,0
+"May 29, 2025",Central Section,POS17A,,,0,0,0
+"May 29, 2025",Central Section,POS 27 Fuel Station,,,0,0,0
+"May 29, 2025",Central Section,POS27 Gen,,,0,0,0
+"May 29, 2025",Central Section,POS32,,,0,0,0
+"May 29, 2025",Central Section,POS37,,,0,0,0
+"May 29, 2025",Central Section,POS60,,,0,0,0
+"May 29, 2025",Western Section,CZ,,,0,0,0
+"May 29, 2025",Western Section,POS22,,,0,0,0
+"May 29, 2025",Western Section,C Gate GEN,,,0,0,0
+"May 29, 2025",Western Section,C Gate Central Heating,,,0,0,0
+"May 29, 2025",Southern Section,POS68,,,0,0,0
+"May 29, 2025",Southern Section,POS80 GEN,,,0,0,0
+"May 29, 2025",Southern Section,POS80 Fuel Station,,,0,0,0
+"May 29, 2025",Southern Section,POS85,,,0,0,0
+"May 29, 2025",Southern Section,POS86B,,,0,0,0
+"May 29, 2025",UNDOF Vehicle Registration,2085,,,0,0,0
+"May 29, 2025",UNDOF Vehicle Registration,2086,,,0,0,0
+"May 29, 2025",UNDOF Vehicle Registration,2087,,,0,0,0
+"May 29, 2025",UNDOF Vehicle Registration,4661,,,0,0,0
+"May 29, 2025",UNDOF Vehicle Registration,4662,,,0,0,0
+"May 29, 2025",UNDOF Vehicle Registration,4663,,,0,0,0
+"May 29, 2025",UNDOF Vehicle Registration,4664,,,0,0,0
+"May 29, 2025",UNDOF Vehicle Registration,4665,,,0,0,0
+"May 30, 2025",Camp Faouar,CF Gen,,,0,0,0
+"May 30, 2025",Camp Faouar,CF Fuel Station,,,0,0,0
+"May 30, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,,,0,0,0
+"May 30, 2025",Camp Faouar,CF JOC GEN (Backup) ,,,0,0,0
+"May 30, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,,,0,0,0
+"May 30, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,,,0,0,0
+"May 30, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,,,0,0,0
+"May 30, 2025",Camp Faouar,Reserve VDP,,,0,0,0
+"May 30, 2025",ROD,ROD Fuel Station,,,0,0,0
+"May 30, 2025",ROD,ROD Generator,,,0,0,0
+"May 30, 2025",Northern Sector,HB GEN,,,0,0,0
+"May 30, 2025",Northern Sector,HB Fuel Station,,,0,0,0
+"May 30, 2025",Northern Sector,HH,,,0,0,0
+"May 30, 2025",Northern Sector,HS,,,0,0,0
+"May 30, 2025",Northern Sector,POS12 Fuel Station,,,0,0,0
+"May 30, 2025",Northern Sector,POS12A GEN,,,0,0,0
+"May 30, 2025",Central Section,POS10A,,,0,0,0
+"May 30, 2025",Central Section,POS17A,,,0,0,0
+"May 30, 2025",Central Section,POS 27 Fuel Station,,,0,0,0
+"May 30, 2025",Central Section,POS27 Gen,,,0,0,0
+"May 30, 2025",Central Section,POS32,,,0,0,0
+"May 30, 2025",Central Section,POS37,,,0,0,0
+"May 30, 2025",Central Section,POS60,,,0,0,0
+"May 30, 2025",Western Section,CZ,,,0,0,0
+"May 30, 2025",Western Section,POS22,,,0,0,0
+"May 30, 2025",Western Section,C Gate GEN,,,0,0,0
+"May 30, 2025",Western Section,C Gate Central Heating,,,0,0,0
+"May 30, 2025",Southern Section,POS68,,,0,0,0
+"May 30, 2025",Southern Section,POS80 GEN,,,0,0,0
+"May 30, 2025",Southern Section,POS80 Fuel Station,,,0,0,0
+"May 30, 2025",Southern Section,POS85,,,0,0,0
+"May 30, 2025",Southern Section,POS86B,,,0,0,0
+"May 30, 2025",UNDOF Vehicle Registration,2085,,,0,0,0
+"May 30, 2025",UNDOF Vehicle Registration,2086,,,0,0,0
+"May 30, 2025",UNDOF Vehicle Registration,2087,,,0,0,0
+"May 30, 2025",UNDOF Vehicle Registration,4661,,,0,0,0
+"May 30, 2025",UNDOF Vehicle Registration,4662,,,0,0,0
+"May 30, 2025",UNDOF Vehicle Registration,4663,,,0,0,0
+"May 30, 2025",UNDOF Vehicle Registration,4664,,,0,0,0
+"May 30, 2025",UNDOF Vehicle Registration,4665,,,0,0,0
+"May 31, 2025",Camp Faouar,CF Gen,,,0,0,0
+"May 31, 2025",Camp Faouar,CF Fuel Station,,,0,0,0
+"May 31, 2025",Camp Faouar,CF Supply Food Storage GEN (Backup) ,,,0,0,0
+"May 31, 2025",Camp Faouar,CF JOC GEN (Backup) ,,,0,0,0
+"May 31, 2025",Camp Faouar,CF CITS/Hospital GEN (Backup) ,,,0,0,0
+"May 31, 2025",Camp Faouar,CF Pentagon GEN (Backup) ,,,0,0,0
+"May 31, 2025",Camp Faouar,CF IK Kitchen GEN (Backup) ,,,0,0,0
+"May 31, 2025",Camp Faouar,Reserve VDP,,,0,0,0
+"May 31, 2025",ROD,ROD Fuel Station,,,0,0,0
+"May 31, 2025",ROD,ROD Generator,,,0,0,0
+"May 31, 2025",Northern Sector,HB GEN,,,0,0,0
+"May 31, 2025",Northern Sector,HB Fuel Station,,,0,0,0
+"May 31, 2025",Northern Sector,HH,,,0,0,0
+"May 31, 2025",Northern Sector,HS,,,0,0,0
+"May 31, 2025",Northern Sector,POS12 Fuel Station,,,0,0,0
+"May 31, 2025",Northern Sector,POS12A GEN,,,0,0,0
+"May 31, 2025",Central Section,POS10A,,,0,0,0
+"May 31, 2025",Central Section,POS17A,,,0,0,0
+"May 31, 2025",Central Section,POS 27 Fuel Station,,,0,0,0
+"May 31, 2025",Central Section,POS27 Gen,,,0,0,0
+"May 31, 2025",Central Section,POS32,,,0,0,0
+"May 31, 2025",Central Section,POS37,,,0,0,0
+"May 31, 2025",Central Section,POS60,,,0,0,0
+"May 31, 2025",Western Section,CZ,,,0,0,0
+"May 31, 2025",Western Section,POS22,,,0,0,0
+"May 31, 2025",Western Section,C Gate GEN,,,0,0,0
+"May 31, 2025",Western Section,C Gate Central Heating,,,0,0,0
+"May 31, 2025",Southern Section,POS68,,,0,0,0
+"May 31, 2025",Southern Section,POS80 GEN,,,0,0,0
+"May 31, 2025",Southern Section,POS80 Fuel Station,,,0,0,0
+"May 31, 2025",Southern Section,POS85,,,0,0,0
+"May 31, 2025",Southern Section,POS86B,,,0,0,0
+"May 31, 2025",UNDOF Vehicle Registration,2085,,,0,0,0
+"May 31, 2025",UNDOF Vehicle Registration,2086,,,0,0,0
+"May 31, 2025",UNDOF Vehicle Registration,2087,,,0,0,0
+"May 31, 2025",UNDOF Vehicle Registration,4661,,,0,0,0
+"May 31, 2025",UNDOF Vehicle Registration,4662,,,0,0,0
+"May 31, 2025",UNDOF Vehicle Registration,4663,,,0,0,0
+"May 31, 2025",UNDOF Vehicle Registration,4664,,,0,0,0
+"May 31, 2025",UNDOF Vehicle Registration,4665,,,0,0,0
