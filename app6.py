@@ -33,7 +33,7 @@ if uploaded_file is not None:
         overall_avg_daily_consumption = df["Avg Daily Consumption"].mean(skipna=True).round(1)
         last_day = df["Date"].max()
         last_5_days_dt = last_day - timedelta(days=5)
-        df_last_5_days = df[df["Date"]>= last_5_days_dt]
+        df_last_5_days = df[df["Date"]>= last_5_days]
 
         avg_consumption_last_5_days = df_last_5_days["Avg Daily Consumption"].sum().round(1)
         
