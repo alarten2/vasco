@@ -141,7 +141,7 @@ if uploaded_file is not None:
             unsafe_allow_html=True
         )
 
-        def generate_sector_plots(df_filtered_date, sector_name, color_palette_start_index):
+        def generate_sector_plots(df_input, sector_name):
             df_sector = df_filtered_date[df_filtered_date['Sector'] == sector_name]
             
             if df_sector.empty:
