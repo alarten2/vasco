@@ -69,7 +69,7 @@ if uploaded_file is not None:
         formatted_total_tank_capacity = f"{total_tank_capacity:,.1f}"
 
         # Percentage calculations
-        percentage_full_capacity = (avg_last_5_days_reported_stock / total_tank_capacity) * 100 if total_tank_capacity > 0 else 0
+        percentage_full_capacity = (formatted_reported_stock_last_day / formatted_total_tank_capacity) * 100
         vacancy_rate = 100 - percentage_full_capacity
 
         # Display Metrics
